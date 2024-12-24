@@ -73,21 +73,63 @@ Console.WriteLine($"Sayıların bölümü: {bolen}");
 /*4. Kullanıcıdan br ondalık sayı alarak, bu sayıyı tam sayıya dönüştürüp, 
 dönüştürülmüş değer ve orjnal değer ekrana yazdıran br program yazın.*/
 
+Console.WriteLine("Bir ondalıklı sayı yazınız:");
+string sayı = Console.ReadLine();
+double sayıDouble = Convert.ToDouble(sayı);
+Console.WriteLine(sayıDouble);
+int sayıİnt =Convert.ToInt32(sayı);
+Console.WriteLine(sayıİnt);
 
-/*5. Kullanıcıdan br sayı alarak, bu sayının karesn ve küpünü hesaplayan ve 
+
+/*5. Kullanıcıdan bir sayı alarak, bu sayının karesn ve küpünü hesaplayan ve 
 sonuçları ekrana yazdıran br program yazın.*/
 
+Console.WriteLine("Bir sayı giriniz:");
+string sayi = Console.ReadLine();
+int sayiInt = Convert.ToInt32(sayi);
+int karesi = sayiInt * sayiInt;
+Console.WriteLine($"Karesi {karesi}");
+int kupu = karesi * sayiInt;
+Console.WriteLine($"Küpü: {kupu}");
 
-/*6. Kullanıcıdan br metn alarak, bu metn büyük harfe çevren ve ekrana yazdıran br 
+/*6. Kullanıcıdan br metin alarak, bu metn büyük harfe çevren ve ekrana yazdıran bir 
 program yazın.*/
 
+Console.WriteLine("Büyük Harfe Çevrilecek Bir Metin Girişi Yapınız:");
+string metin = Console.ReadLine();
+
+Console.WriteLine("Metnin Büyük hale Çevrilmiş Hali:");
+string metinUpper = metin.ToUpperInvariant
 
 
-/*7. Kullanıcıdan k sayı alarak, bu sayıların büyüklük karşılaştırmasını yapan ve 
-büyük olan sayıyı ekrana yazdıran br program yazın. Sayılar eştse, eşt olduklarını 
-belrten br mesaj yazdırın.*/
+Console.WriteLine("Büyük Harfe Çevrilecek Bir Metin Girişi Yapınız:");
+metin = Console.ReadLine();
+
+Console.WriteLine("Metnin Büyük hale Çevrilmiş Hali:");
+metinUpper = metin.ToUpperInvariant();
+Console.WriteLine(metinUpper);
 
 
+/*7. Kullanıcıdan iki sayı alarak, bu sayıların büyüklük karşılaştırmasını yapan ve 
+büyük olan sayıyı ekrana yazdıran bir program yazın. Sayılar eşitse, eşit olduklarını 
+belirten bir mesaj yazdırın.*/
 
-/*8. Kullanıcıdan br sayı alarak, bu sayının poztf m negatf m olduğunu kontrol eden 
-ve sonucu ekrana yazdıran br program yazın.*/
+Console.WriteLine("Birinci sayıyı giriniz:");
+string sayi1 = Console.ReadLine();
+int sayi1Int = Convert.ToInt32(sayi1);
+
+Console.WriteLine("İkinci sayıyı giriniz:");
+string sayi2 = Console.ReadLine();
+int sayiInt2 = Convert.ToInt32(sayi2);
+
+if (sayi1Int > sayiInt2) {Console.WriteLine("Birinci sayı ikinci sayıdan büyüktür.");}
+
+else if (sayi1Int < sayiInt2) { Console.WriteLine("İkinci sayı birinci sayıdan büyüktür."); }
+
+else { Console.WriteLine("İki sayı da birbirine eşittir."); }
+
+/*8. Kullanıcıdan bir sayı alarak, bu sayının pozitif mi negatif mi olduğunu kontrol eden 
+ve sonucu ekrana yazdıran bir program yazın.*/
+
+Console.WriteLine("Kontrolü yapılacak sayıyı giriniz:");
+
