@@ -70,7 +70,7 @@ Console.WriteLine("Bir ondalıklı sayı yazınız:");
 string sayı = Console.ReadLine();
 double sayıDouble = Convert.ToDouble(sayı);
 Console.WriteLine(sayıDouble);
-int sayıİnt =Convert.ToInt32(sayı);
+int sayıİnt = Convert.ToInt32(sayı);
 Console.WriteLine(sayıİnt);
 
 //  ********************************************************************************************************************
@@ -95,7 +95,7 @@ Console.WriteLine("Büyük Harfe Çevrilecek Bir Metin Girişi Yapınız:");
 string metin = Console.ReadLine();
 
 Console.WriteLine("Metnin Büyük hale Çevrilmiş Hali:");
-string metinUpper = metin.ToUpperInvariant
+string metinUpper = metin.ToUpperInvariant ();
 
 
 Console.WriteLine("Büyük Harfe Çevrilecek Bir Metin Girişi Yapınız:");
