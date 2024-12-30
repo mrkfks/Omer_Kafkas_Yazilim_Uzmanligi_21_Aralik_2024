@@ -102,18 +102,25 @@ Console.WriteLine("Bölüm: " + bolum);
 //7. Soru: Kullanıcıdan alınan bir sayının pozitif, negatif veya sıfır olup olmadığını kontrol eden bir program yazın.
 //Cevap:
 
+Console.WriteLine ("Denetimi yapılacak bir sayı giriniz:");
+string sayi7 = Console.ReadLine();
+int sayiInt7 = Convert.ToInt32(sayi7);
 
-
-
-
-
-
+if (sayiInt7 < 0)
+    Console.WriteLine("Sayı Negatiftir.");
+else if (sayiInt7 > 0)
+    Console.WriteLine("Sayı Pozitiftir.");
+else
+    Console.WriteLine("Sayı Sıfırdır.");
 
 
 /********************************************************************************************************************/
 //8. Soru: Kullanıcıdan alınan bir not değerine göre, notun "Geçti" veya "Kaldı" şeklinde olup olmadığını belirleyen bir program yazın.
 //Cevap:
 
+Console.WriteLine("Notunuzu giriniz:");
+string not8 = Console.ReadLine();
+int notInt8 = Convert.ToInt32(not8);
 
 
 
