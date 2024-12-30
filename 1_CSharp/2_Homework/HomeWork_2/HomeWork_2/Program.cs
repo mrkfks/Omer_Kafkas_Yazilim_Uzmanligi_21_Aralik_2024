@@ -5,99 +5,98 @@
 //1.Soru: Bir öğrencinin adını, yaşını ve not ortalamasını tutan değişkenler tanımlayın ve bu bilgileri ekrana yazdırın.
 //Cevap:
 
-console.writeline("Öğrenci Adı: ");
+Console.WriteLine("Öğrenci Adı: ");
 string ad = Console.ReadLine();
 
-console.writeline("Öğrenci Yaşı: ");
-string yas = Console.ReadLine();
+Console.WriteLine("Öğrenci Yaşı: ");
+string yas1 = Console.ReadLine();
+int yasInt1 = Convert.ToInt32(yas1);
 
-console.writeline("Öğrenci Not Ortalaması: ");
-string notOrtalamasi = Console.readLine();
+Console.WriteLine("Öğrenci Not Ortalaması: ");
+string notOrtalamasi = Console.ReadLine();
 
-console.writeline("Öğrenci Adı: " + ad);
-
-console.writeline("Öğrenci Yaşı: " + yas);
-
-console.writeline("Öğrenci Not Ortalaması: " + notOrtalamasi);
+Console.WriteLine("Öğrenci Adı: " + ad);
+Console.WriteLine("Öğrenci Yaşı: " + yas1);
+Console.WriteLine("Öğrenci Not Ortalaması: " + notOrtalamasi);
 
 
 /********************************************************************************************************************/
 //2. Soru: Bir dikdörtgenin uzunluğunu ve genişliğini kullanıcıdan alarak alanını hesaplayan bir program yazın.
 //Cevap:
 
-Console.writeLine("Dikdörtgenin Uzunluğu: ");
-string uzunluk = console.readline
+Console.WriteLine("Dikdörtgenin Uzunluğu: ");
+string uzunluk = Console.ReadLine();
 int uzunlukInt = Convert.ToInt32(uzunluk);
 
-console.writeline("Dikdörtgenin Genişliği: ");
-string genislik = console.readline
-int genislikInt = convert.toint32(genislik);
+Console.WriteLine("Dikdörtgenin Genişliği: ");
+string genislik = Console.ReadLine();
+int genislikInt = Convert.ToInt32(genislik);
 
 int alan = uzunlukInt * genislikInt;
-console.writeline ("Dikdörtgenin Alanı:" + alan);
+Console.WriteLine("Dikdörtgenin Alanı: " + alan);
 
 
 /********************************************************************************************************************/
 //3. Soru: Kullanıcıdan alınan bir string değer integer'a çevirip, bu değer 10 ile çarpan ve sonucu ekrana yazdıran bir program yazın.
 //Cevap:
 
-console.writeline("Bir sayı giriniz:");
-string sayi = console.readline();
-int sayıInt = convert.toInt32(sayi);
-sonuc = sayıInt * 10;
-console.writeline("Girilen sayının 10 ile çarpımı: " + sonuc);
+Console.WriteLine("Bir sayı giriniz:");
+string sayi = Console.ReadLine();
+int sayiInt = Convert.ToInt32(sayi);
+int sonuc = sayiInt * 10;
+Console.WriteLine("Girilen sayının 10 ile çarpımı: " + sonuc);
 
 
 /********************************************************************************************************************/
 //4. Soru: Kullanıcıdan alınan bir double değeri integer'a çevirip, bu değer ekrana yazdıran bir program yazın.
 //Cevap:
 
-console.writeline("Bir ondalıklı sayı giriniz:");
-string sayi = console.readline();
-double sayıDouble = convert.toDouble(sayi);
-int sayıInt = convert.toInt32(sayıDouble);
-console.writeline("Girilen sayınının tam kısmı: " + sayıInt);
+Console.WriteLine("Bir ondalıklı sayı giriniz:");
+string sayi4 = Console.ReadLine();
+double sayi4double = Convert.ToDouble(sayi4);
+double asagiYuvarlanmisSayi = Math.Floor(sayi4double);
+Console.WriteLine("Girilen sayının tam kısmı: " + asagiYuvarlanmisSayi);
 
 
 /********************************************************************************************************************/
 //5. Soru: Kullanıcıdan adını ve doğum yılını alarak, kullanıcının yaşını hesaplayan ve ekrana yazdıran bir program yazın.
 //Cevap:
 
-Console.writeLine("Adınız: ");
-string ad =console.readline();
+Console.WriteLine("Adınız: ");
+ad = Console.ReadLine();
 
-Console.witeline ("Mevcut yıl: ");
-string yil = console.readline();
-int yilint = convert.toInt32(yil);
+Console.WriteLine("Mevcut yıl: ");
+string yil5 = Console.ReadLine();
+int yil5Int = Convert.ToInt32(yil5);
 
-console.writeline("Doğum yılınız: ");
-string dogumyili =console.readline();
-int dogumyiliint = convert.toInt32(dogumyili);
+Console.WriteLine("Doğum yılınız: ");
+string dogumYili5 = Console.ReadLine();
+int dogumYili5Int = Convert.ToInt32(dogumYili5);
 
-int yas = yilint - dogumyiliint;
-console.writeline("Yaşınız: " + yas);
+int yas5 = yil5Int - dogumYili5Int;
+Console.WriteLine("Yaşınız: " + yas5);
 
 /********************************************************************************************************************/
 //6. Soru: Kullanıcıdan iki sayı alarak bu sayıların toplamını, farkını, çarpımını ve bölümünü hesaplayan bir program yazın.
 //Cevap:
 
-console.writeline("Birinci sayıyı giriniz:");
-string sayi1 =console.readline();
-int saiyint1 = convert.toInt32(sayi1);
+Console.WriteLine("Birinci sayıyı giriniz:");
+string sayi1 = Console.ReadLine();
+int sayiInt1 = Convert.ToInt32(sayi1);
 
-console.writeline("İkinci sayıyı giriniz:");
-string sayi2 = console.readline();
-int sayiint2 =convert.toInt32(sayi2);
+Console.WriteLine("İkinci sayıyı giriniz:");
+string sayi2 = Console.ReadLine();
+int sayiInt2 = Convert.ToInt32(sayi2);
 
-int toplam = sayiint1 + sayiint2;
-int fark = sayiint1 - sayiint2;
-int carpim = sayiint1 * sayiint2;
-int bolum = sayiint1 / sayiint2;
+int toplam = sayiInt1 + sayiInt2;
+int fark = sayiInt1 - sayiInt2;
+int carpim = sayiInt1 * sayiInt2;
+int bolum = sayiInt1 / sayiInt2;
 
-console.writeline("Toplam: " + toplam);
-console.writeline("Fark: " + fark);
-console.writeline("Çarpım: " + carpim);
-console.writeline("Bölüm: " + bolum);
+Console.WriteLine("Toplam: " + toplam);
+Console.WriteLine("Fark: " + fark);
+Console.WriteLine("Çarpım: " + carpim);
+Console.WriteLine("Bölüm: " + bolum);
 
 /********************************************************************************************************************/
 //7. Soru: Kullanıcıdan alınan bir sayının pozitif, negatif veya sıfır olup olmadığını kontrol eden bir program yazın.
