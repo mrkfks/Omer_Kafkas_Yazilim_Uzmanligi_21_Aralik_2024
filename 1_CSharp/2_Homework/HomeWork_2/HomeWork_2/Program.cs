@@ -121,52 +121,67 @@ else
 Console.WriteLine("Notunuzu giriniz:");
 string not8 = Console.ReadLine();
 int notInt8 = Convert.ToInt32(not8);
-
-
-
-
-
+if (notInt8 <= 100 && notInt8 >= 50)
+    Console.WriteLine("Geçti");
+else
+    Console.WriteLine("Kaldı");
 
 
 /********************************************************************************************************************/
 //9. Soru: 1'den 100'e kadar olan sayıları ekrana yazdıran bir program yazın.
 //Cevap:
 
-
-
-
-
-
-
+for (int i = 1; i <= 100; i++)
+{
+    Console.WriteLine(i);
+};
 
 /********************************************************************************************************************/
 //10. Soru: Kullanıcıdan alınan bir sayının faktöriyelin hesaplayan bir program yazın.
 //Cevap:
 
+Console.WriteLine("Faktöriyeli hesaplanacak sayıyı giriniz:");
+string sayi10 = Console.ReadLine();
+int sayi10Int = Convert.ToInt32(sayi10);
 
-
-
-
-
+int factoriel = 1;
+for (int i = 1; i <= sayi10Int; i++)
+{ 
+factoriel = factoriel * i; 
+}
+Console.WriteLine("Faktöriyel: " + factoriel);
 
 
 /********************************************************************************************************************/
-//11. Soru: Kullanıcıdan alınan k sayının her ikisinin de pozitif olup olmadığını kontrol eden bir program yazın.
+//11. Soru: Kullanıcıdan alınan iki sayının her ikisinin de pozitif olup olmadığını kontrol eden bir program yazın.
 //Cevap:
 
+Console.WriteLine("İlk sayıyı giriniz:");
+string sayi111 = Console.ReadLine();
+int sayiInt111 = Convert.ToInt32(sayi111);
 
+Console.WriteLine("İkinci sayıyı giriniz:");
+string sayi112 = Console.ReadLine();
+int sayiInt112 = Convert.ToInt32(sayi112);
 
-
-
+if (sayiInt111 >0 && sayiInt112 > 0)
+    Console.WriteLine("Her iki sayı da pozitiftir.");
+else
+    Console.WriteLine("Her iki sayı da pozitif değildir.");
 
 
 /********************************************************************************************************************/
 //12. Soru: Kullanıcıdan alınan bir sayının 10 ile 20 arasında olup olmadığını kontrol eden bir program yazın.
 //Cevap:
 
+Console.WriteLine("Bir sayı giriniz:");
+string sayi12 = Console.ReadLine();
+int sayiInt12 = Convert.ToInt32(sayi12);
 
-
-
+if (sayiInt12 >=10 && sayiInt12 <= 20)
+    Console.WriteLine("Sayı 10 ile 20 arasındadır.");
+else
+    Console.WriteLine("Sayı 10 ile 20 arasında değildir.");
 
 
 /********************************************************************************************************************/
