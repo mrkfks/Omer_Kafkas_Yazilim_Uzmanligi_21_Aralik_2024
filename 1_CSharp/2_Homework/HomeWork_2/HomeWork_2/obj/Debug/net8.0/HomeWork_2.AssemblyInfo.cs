@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HomeWork_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef6ffec12f6ca07726b552b0f56f2e999f1b2ea7")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc25c7be1cec90f90f6b00ab80fdbb8ee0b2ec2e")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("HomeWork_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HomeWork_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
