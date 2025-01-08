@@ -10,41 +10,64 @@ namespace Homework_3
     {
         static void Main(string[] args)
         {
-        //1.Soru: Bir Hesap Makinesi sınıfı oluşturun.Bu sınıfta Topla, Çıkar, Çarp ve Böl fonksiyonları olsun.
-        //Bu fonksiyonları kullanarak iki sayının toplamını, farkını, çarpımını ve bölümünü hesaplayın.
-        //Cevap:
+            Classes classes = new Classes();
 
-        //2.Soru: Bir Dikdörtgen sınıfı oluşturun. Bu sınıfta Uzunluk ve Genişlik özellikleri ile Alan ve Çevre fonksiyonları olsun.
-        //Bu fonksiyonları kullanarak bir dikdörtgenin alanını ve çevresini hesaplayın.
+            //1.Soru: Bir Hesap Makinesi sınıfı oluşturun.Bu sınıfta Topla, Çıkar, Çarp ve Böl fonksiyonları olsun.
+            //Bu fonksiyonları kullanarak iki sayının toplamını, farkını, çarpımını ve bölümünü hesaplayın.
+            //Cevap:
 
-
-        //3.Soru: Bir Kare sınıfı oluşturun. Bu sınıfta Kenar özelliği le Alan ve Çevre fonksiyonları olsun.
-        //Bu fonksiyonları kullanarak bir karenin alanını ve çevresini hesaplayın.
+            classes.Calculator("", "");
 
 
-        //4.Soru: Bir Daire sınıfı oluşturun. Bu sınıfta Yarıçap özelliği ile Alan ve Çevre fonksiyonları olsun.
-        //Bu fonksiyonları kullanarak bir dairenin alanını ve çevresini hesaplayın.
+            //2.Soru: Bir Dikdörtgen sınıfı oluşturun. Bu sınıfta Uzunluk ve Genişlik özellikleri ile Alan ve Çevre fonksiyonları olsun.
+            //Bu fonksiyonları kullanarak bir dikdörtgenin alanını ve çevresini hesaplayın.
+            //Cevap:
+
+            classes.Rectangle(0, 0);
 
 
-        //5.Soru: Bir Öğrenci sınıfı oluşturun. Bu sınıfta isim, yas ve notlar özellikleri le Not Ekle ve Ortalama Hesapla fonksiyonları olsun.
-        //Bu fonksiyonları kullanarak bir öğrencinin notlarını ekleyin ve not ortalamasını hesaplayın.
+            //3.Soru: Bir Kare sınıfı oluşturun. Bu sınıfta Kenar özelliği le Alan ve Çevre fonksiyonları olsun.
+            //Bu fonksiyonları kullanarak bir karenin alanını ve çevresini hesaplayın.
+            //Cevap:
+
+            classes.Square(0);
+
+            //4.Soru: Bir Daire sınıfı oluşturun. Bu sınıfta Yarıçap özelliği ile Alan ve Çevre fonksiyonları olsun.
+            //Bu fonksiyonları kullanarak bir dairenin alanını ve çevresini hesaplayın.
+            //Cevap:
+
+            classes.Circle(0);
+
+            //5.Soru: Bir Öğrenci sınıfı oluşturun. Bu sınıfta isim, yas ve notlar özellikleri ile Not Ekle ve Ortalama Hesapla fonksiyonları olsun.
+            //Bu fonksiyonları kullanarak bir öğrencinin notlarını ekleyin ve not ortalamasını hesaplayın.
+            //Cevap:
+
+            classes.Student(" ", 0, 0);
 
 
-        //6.Soru: Bir Faktöriyel fonksiyonu yazın.
-        //Bu fonksiyon, verilen bir sayının faktöriyelini hesaplasın. 
+            //6.Soru: Bir Faktöriyel fonksiyonu yazın.
+            //Bu fonksiyon, verilen bir sayının faktöriyelini hesaplasın.
+            //Cevap:
+
+            classes.Factorial(0);
+
+            //7.Soru: Bir Fibonacci fonksiyonu yazın. Bu fonksiyon, verilen bir sayının Fibonacci dizsindeki değerin hesaplasın. (Fibonacci formülünü araştırınız.) 
+            //Cevap:
+
+            classes.Fibonacci(0);
+
+            //8.Soru: Bir Asal mı fonksiyonu yazın.Bu fonksiyon, verilen bir sayının asal olup olmadığını kontrol etsin. (Asal sayı formülünü araştırınız.)
+            //Cevap:
+
+            classes.Asal(0);
+
+            //9.Soru: Bir En Büyük Ortak Bölen fonksiyonu yazın.Bu fonksiyon, verilen iki sayının en büyük ortak bölenini hesaplasın.
+            //Cevap:
 
 
-        //7.Soru: Bir Fibonacci fonksiyonu yazın. Bu fonksiyon, verilen bir sayının Fibonacci dizsindeki değerin hesaplasın. (Fibonacci formülünü araştırınız.) 
 
-
-        //8.Soru: Bir Asal mı fonksiyonu yazın.Bu fonksiyon, verilen bir sayının asal olup olmadığını kontrol etsin. (Asal sayı formülünü araştırınız.)
-
-
-        //9.Soru: Bir En Büyük Ortak Bölen fonksiyonu yazın.Bu fonksiyon, verilen iki sayının en büyük ortak bölenini hesaplasın.
-
-
-        //10.Soru: Bir Küçükten Büyüğe Sırala fonksiyonu yazın. Bu fonksiyon, verilen bir dizi sayıyı küçükten büyüğe sıralasın.
-
+            //10.Soru: Bir Küçükten Büyüğe Sırala fonksiyonu yazın. Bu fonksiyon, verilen bir dizi sayıyı küçükten büyüğe sıralasın.
+            //Cevap:
 
 
         }
