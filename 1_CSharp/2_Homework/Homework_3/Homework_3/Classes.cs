@@ -93,7 +93,6 @@ namespace Homework_3
             average = (notes[0] + notes[1] + notes[2]) / 3;
             Console.WriteLine($"{name} isimli örenci {old} yaşındadır, Not ortalamsı {average}'dır.");
         }
-
         public void Factorial (int number)
         {
             Console.WriteLine("Faktöriyel");
@@ -171,6 +170,13 @@ namespace Homework_3
             else
             {
                 Console.WriteLine("Sayı Asaldır.");
+            }
+        }
+        public void EBOB(int x, int y)
+        {
+            while (x != 0 && y != 0)
+            {
+                x 
             }
         }
 
