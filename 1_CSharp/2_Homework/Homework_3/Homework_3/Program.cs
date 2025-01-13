@@ -30,7 +30,7 @@ namespace Homework_3
             //Bu fonksiyonları kullanarak bir karenin alanını ve çevresini hesaplayın.
             //Cevap:
 
-            classes.Square(0);
+             classes.Square(0);
 
             //4.Soru: Bir Daire sınıfı oluşturun. Bu sınıfta Yarıçap özelliği ile Alan ve Çevre fonksiyonları olsun.
             //Bu fonksiyonları kullanarak bir dairenin alanını ve çevresini hesaplayın.
@@ -64,11 +64,24 @@ namespace Homework_3
             //9.Soru: Bir En Büyük Ortak Bölen fonksiyonu yazın.Bu fonksiyon, verilen iki sayının en büyük ortak bölenini hesaplasın.
             //Cevap:
 
-
+            Console.WriteLine("İlk sayıyı girini: ");
+            int ilkSayi = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("İkinci sayıyı giriniz: ");
+            int ikinciSayi = Convert.ToInt32(Console.ReadLine());
+            classes.Ebob (ilkSayi, ikinciSayi);
 
             //10.Soru: Bir Küçükten Büyüğe Sırala fonksiyonu yazın. Bu fonksiyon, verilen bir dizi sayıyı küçükten büyüğe sıralasın.
             //Cevap:
 
+            Console.WriteLine("Dizi eleman sayısını giriniz: ");
+            int elemanSayisi = Convert.ToInt32(Console.ReadLine());
+            int[] dizi = new int[elemanSayisi];
+            for (int i = 0; i < elemanSayisi; i++)
+            {
+                Console.WriteLine($"{i + 1}. elemanı giriniz: ");
+                dizi[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            classes.SiraliDizi(dizi);
 
         }
     }
