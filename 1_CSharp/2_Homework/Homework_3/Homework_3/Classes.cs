@@ -11,7 +11,7 @@ namespace Homework_3
     public class Classes
     {
         public void Calculator(string sayi1, string sayi2)
-            {
+        {
             Console.WriteLine("Calculator");
             Console.WriteLine("İlk sayıyı giriniz:");
             sayi1 = Console.ReadLine();
@@ -45,10 +45,10 @@ namespace Homework_3
             {
                 Console.WriteLine("Hatalı İşlem Girdiniz!");
             }
-    
-            }
+
+        }
         public void Rectangle(int length, int width)
-            {
+        {
             Console.WriteLine("Rectangle");
             Console.WriteLine("Uzunluk giriniz:");
             length = Convert.ToInt32(Console.ReadLine());
@@ -56,29 +56,29 @@ namespace Homework_3
             width = Convert.ToInt32(Console.ReadLine());
 
             int area = length * width;
-            Console.WriteLine($"Dikdörtgenin Alanı: {area}" );
+            Console.WriteLine($"Dikdörtgenin Alanı: {area}");
             int perimeter = 2 * (length + width);
             Console.WriteLine($"Dikdörtgenin Çevresi: {perimeter}");
-            }
+        }
         public void Square(int edge)
-            {
+        {
             Console.WriteLine("Square");
             Console.WriteLine("Kenar uzunluğunu giriniz:");
             edge = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Karenin Alanı: {edge * edge}");
             Console.WriteLine($"Karenin Çevresi: {4 * edge}");
-            }
+        }
         public void Circle(int radius)
         {
             Console.WriteLine("Daire");
             Console.WriteLine("Yarıçapı giriniz:");
             radius = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Dairenin alanı: {radius*radius*Math.PI}");
-            Console.WriteLine($"Dairenin çevresi: {2*radius*Math.PI}");
+            Console.WriteLine($"Dairenin alanı: {radius * radius * Math.PI}");
+            Console.WriteLine($"Dairenin çevresi: {2 * radius * Math.PI}");
         }
         public void Student(string name, int old, int average)
         {
-            int [] notes = new int[3];
+            int[] notes = new int[3];
 
             Console.WriteLine("Öğrenci Kaydı:");
             Console.WriteLine("Öğrencinin Adını Giriniz:");
@@ -93,7 +93,7 @@ namespace Homework_3
             average = (notes[0] + notes[1] + notes[2]) / 3;
             Console.WriteLine($"{name} isimli örenci {old} yaşındadır, Not ortalamsı {average}'dır.");
         }
-        public void Factorial (int number)
+        public void Factorial(int number)
         {
             Console.WriteLine("Faktöriyel");
             Console.WriteLine("faktöriyeli alınacak bir sayı giriniz:");
@@ -129,13 +129,13 @@ namespace Homework_3
                 Console.WriteLine(fn[i]);
             }
         }
-        public void Asal (int number)
+        public void Asal(int number)
         {
             Console.WriteLine("Asal Sayı Kontrolü");
             Console.WriteLine("Asal olup olmadığını kontrol etmek istediğiniz sayıyı giriniz:");
             number = Convert.ToInt32(Console.ReadLine());
 
-            if (number %2 == 0)
+            if (number % 2 == 0)
             {
                 Console.WriteLine("Sayı Asal Değildir.");
             }
@@ -172,13 +172,34 @@ namespace Homework_3
                 Console.WriteLine("Sayı Asaldır.");
             }
         }
-        public void EBOB(int x, int y)
+        public void Ebob(int x, int y)
         {
             while (x != 0 && y != 0)
             {
-                x 
+                if (x > y && x % y == 0)
+                {
+                    Console.WriteLine($"EBOB: {y}");
+                }
+                else if (y > x && y % x == 0)
+                {
+                    Console.WriteLine($"EBOB: {x}");
+                }
+                else
+                {
+                    Console.WriteLine("Bahse konu sayılar aralarında asaldır.");
+                }
+                break;
+
             }
         }
-
+        public void SiraliDizi(int[] array)
+        {
+            Array.Sort(array);
+            Console.WriteLine("Dizi Küçükten Büyüğe Sıralandı.");
+            foreach (int i in array)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
