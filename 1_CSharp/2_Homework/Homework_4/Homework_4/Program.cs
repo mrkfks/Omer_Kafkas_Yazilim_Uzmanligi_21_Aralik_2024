@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,8 +10,9 @@ namespace Homework_4
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main (string[] args)
         {
+            Action action = new Action();
             //Soru1: (Array) Bir dizi oluşturun ve bu dizideki elemanların ortalamasını hesaplayan bir program yazın.
             //cevap:
 
@@ -22,8 +24,13 @@ namespace Homework_4
                 Console.WriteLine("Dizinin " + (i + 1) + ". elemanını giriniz:");
                 Array[i] = Convert.ToInt32(Console.ReadLine());
             }
+            
+            action.OrtalamaDizi(Array);
+
 
             //Soru2: (If) Kullanıcıdan bir sayı alın ve bu sayının pozitif, negatif veya sıfır olup olmadığını belirleyen bir program yazın.
+
+
 
             //Soru3: (Else - If) Kullanıcıdan bir not değeri alın ve bu değere göre "Geçti", "Kaldı" veya "Bütünlemeye Kaldı" gibi mesajlar veren bir program yazın.
 

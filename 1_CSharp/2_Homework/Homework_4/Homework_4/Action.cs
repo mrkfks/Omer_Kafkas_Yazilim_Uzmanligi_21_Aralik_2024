@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Homework_4
 {
-    internal class Action
+    public class Action
     {
-    public void OrtalamaDizi(int[] )  
+    public void OrtalamaDizi(int[] Array)
+        {
+           int ArraySum = Array.Sum();
+            Console.WriteLine($"Dizinin elemanlarının toplamı: {ArraySum}");
+            double ArrayAvg =  Array.Average();
+            Console.WriteLine($"Dizinin elemanlarının ortalaması: {ArrayAvg}");
+        }
     }
 }
