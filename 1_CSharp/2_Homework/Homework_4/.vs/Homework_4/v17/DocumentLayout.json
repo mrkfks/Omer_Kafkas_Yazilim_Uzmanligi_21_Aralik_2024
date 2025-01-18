@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{34D17C35-0394-461F-A433-8299AA1A3E96}|Homework_4\\Homework_4.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\2_homework\\homework_4\\homework_4\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34D17C35-0394-461F-A433-8299AA1A3E96}|Homework_4\\Homework_4.csproj|solutionrelative:homework_4\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34D17C35-0394-461F-A433-8299AA1A3E96}|Homework_4\\Homework_4.csproj|D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_4\\homework_4\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34D17C35-0394-461F-A433-8299AA1A3E96}|Homework_4\\Homework_4.csproj|solutionrelative:homework_4\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{34D17C35-0394-461F-A433-8299AA1A3E96}|Homework_4\\Homework_4.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\2_homework\\homework_4\\homework_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34D17C35-0394-461F-A433-8299AA1A3E96}|Homework_4\\Homework_4.csproj|solutionrelative:homework_4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Car.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_4\\Homework_4\\Car.cs",
+              "RelativeDocumentMoniker": "Homework_4\\Car.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_4\\Homework_4\\Car.cs",
+              "RelativeToolTip": "Homework_4\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T19:42:59.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Action.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_4\\Homework_4\\Action.cs",
+              "RelativeDocumentMoniker": "Homework_4\\Action.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_4\\Homework_4\\Action.cs",
+              "RelativeToolTip": "Homework_4\\Action.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T18:32:02.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_4\\Homework_4\\Program.cs",
               "RelativeDocumentMoniker": "Homework_4\\Program.cs",
               "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_4\\Homework_4\\Program.cs",
               "RelativeToolTip": "Homework_4\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwE0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T10:12:08.431Z",
               "EditorCaption": ""
