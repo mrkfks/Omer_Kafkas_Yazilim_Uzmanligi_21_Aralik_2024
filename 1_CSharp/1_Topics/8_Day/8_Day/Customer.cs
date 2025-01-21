@@ -9,16 +9,19 @@ namespace _8_Day
     internal class Customer
     {
         internal int age = 30;
-        public void call()
+
+        public void Call()
         {
-            Console.WriteLine("Thi Line CAll");
+            Console.WriteLine("This Line Call");
         }
-        public void Params(string name, int age, string? email)
+
+        public void Params(string name, int? age, string? email)
         {
             Console.WriteLine(name);
-            int newage = age ?? 10;
-            Console.WriteLine(newage);
+            int newAge = age ?? 10;
+            Console.WriteLine(newAge);
             string newEmail = email ?? "mail@mail.com";
+            Console.WriteLine(newEmail);
         }
     }
 }

@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\",
+  "WorkspaceRootPath": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31345B78-508E-4A0D-9FAC-E3BFEFFA659B}|8_Day\\8_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\8_day\\8_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31345B78-508E-4A0D-9FAC-E3BFEFFA659B}|8_Day\\8_Day.csproj|solutionrelative:8_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31345B78-508E-4A0D-9FAC-E3BFEFFA659B}|8_Day\\8_Day.csproj|C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\8_day\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31345B78-508E-4A0D-9FAC-E3BFEFFA659B}|8_Day\\8_Day.csproj|solutionrelative:8_day\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31345B78-508E-4A0D-9FAC-E3BFEFFA659B}|8_Day\\8_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\8_day\\8_day\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31345B78-508E-4A0D-9FAC-E3BFEFFA659B}|8_Day\\8_Day.csproj|solutionrelative:8_day\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31345B78-508E-4A0D-9FAC-E3BFEFFA659B}|8_Day\\8_Day.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\8_day\\8_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31345B78-508E-4A0D-9FAC-E3BFEFFA659B}|8_Day\\8_Day.csproj|solutionrelative:8_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,27 +21,31 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Customer.cs",
-              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\8_Day\\Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\8_Day\\Customer.cs",
               "RelativeDocumentMoniker": "8_Day\\Customer.cs",
-              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\8_Day\\Customer.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\8_Day\\Customer.cs",
               "RelativeToolTip": "8_Day\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T06:13:15.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\8_Day\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\8_Day\\Program.cs",
               "RelativeDocumentMoniker": "8_Day\\Program.cs",
-              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\8_Day\\Program.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\8_Day\\8_Day\\Program.cs",
               "RelativeToolTip": "8_Day\\Program.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAAwK4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwv4gAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-18T06:12:04.556Z",
               "EditorCaption": ""
