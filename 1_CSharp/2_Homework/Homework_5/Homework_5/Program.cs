@@ -1,4 +1,4 @@
-ï»¿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,55 +11,119 @@ namespace Homework_5
         public void Main(string[] args)
         {
             //Soru1: (Nullable Types)
-            //Bir int? deÄŸiÅŸken tanÄ±mlayÄ±n ve bu deÄŸiÅŸkenin null olup olmadÄ±ÄŸÄ±nÄ± kontrol eden bir kod yazÄ±n.
+            //Bir int? değişken tanımlayın ve bu değişkenin null olup olmadığını kontrol eden bir kod yazın.
             //Cevap:
+
+            int? nunableInt = null;
+            if (nunableInt == null)
+            {
+                Console.WriteLine("nunableInt is null");
+            }
+            else
+            {
+                Console.WriteLine("nunableInt is not null");
+            }
 
             //Soru2: (String Concat)
-            //Ä°ki string deÄŸiÅŸkenini birleÅŸtiren bir metot yazÄ±n ve bu metodu kullanarak "Hello" ve "World" kelimelerini birleÅŸtirin.
+            //İki string değişkenini birleştiren bir metot yazın ve bu metodu kullanarak "Hello" ve "World" kelimelerini birleştirin.
             //Cevap:
+
+            string str1 = "Hello";
+            string str2 = "World";
+            string str3 = string.Concat(str1, str2);
 
             //Soru3: (String Equals)
-            //Ä°ki string deÄŸiÅŸkeninin eÅŸit olup olmadÄ±ÄŸÄ±nÄ± kontrol eden bir kod yazÄ±n. BÃ¼yÃ¼k/kÃ¼Ã§Ã¼k harf duyarlÄ±lÄ±ÄŸÄ±nÄ± gÃ¶z Ã¶nÃ¼nde bulundurun.
+            //İki string değişkeninin eşit olup olmadığını kontrol eden bir kod yazın. Büyük/küçük harf duyarlılığını göz önünde bulundurun.
             //Cevap:
+
+            string str4 = "Hello";
+            string str5 = "hello";
+            if (str4.Equals(str5, StringComparison.Ordinal))
+            {
+                Console.WriteLine("str4 and str5 are not equal");
+            }
+            else
+            {
+                Console.WriteLine("str4 and str5 are equal");
+            }
 
             //Soru4: (String Contains)
-            //Bir string iÃ§inde belirli bir alt string'in olup olmadÄ±ÄŸÄ±nÄ± kontrol eden bir metot yazÄ±n. Ã–rneÄŸin, "Hello World" iÃ§inde "World" kelimesinin olup olmadÄ±ÄŸÄ±nÄ± kontrol edin.
+            //Bir string içinde belirli bir alt string'in olup olmadığını kontrol eden bir metot yazın. Örneğin, "Hello World" içinde "World" kelimesinin olup olmadığını kontrol edin.
             //Cevap:
+
+            string soru4 = "Hello World";
+            if ( soru4.Contains("World"))
+            {
+                Console.WriteLine("Referans metin içerisinde aranan deger bulunmaktadir");
+            }
+            else
+            {
+                Console.WriteLine("Referans metin içerisinde aranan deger bulunmamaktadir");
+            };
+
 
             //Soru5: (String Substring)
-            //Bir string'in belirli bir indeksinden baÅŸlayarak bir alt string elde eden bir metot yazÄ±n. Ã–rneÄŸin, "Hello World" string'inden "World" kelimesini Ã§Ä±karÄ±n.
+            //Bir string'in belirli bir indeksinden başlayarak bir alt string elde eden bir metot yazın. Örneğin, "Hello World" string'inden "World" kelimesini çıkarın.
             //Cevap:
+
+            string soru5 = "Hello World";
+            string altString = soru5.Substring(6, 5);
+            Console.WriteLine(altString);
 
             //Soru6: (String Insert)
-            //Bir string'in belirli bir indeksine baÅŸka bir string ekleyen bir metot yazÄ±n. Ã–rneÄŸin, "Hello" string'ine 5. indeksten sonra " World" ekleyin.
+            //Bir string'in belirli bir indeksine başka bir string ekleyen bir metot yazın. Örneğin, "Hello" string'ine 5. indeksten sonra " World" ekleyin.
             //Cevap:
+
+            string soru6 = "Hello";
+            string eklenecekString = "World";
+            string yeniString = soru6.Insert(soru6.Length, eklenecekString);
+            Console.WriteLine(yeniString);
 
             //Soru7: (String Remove)
-            //Bir string'in belirli bir indeksinden baÅŸlayarak belirli bir uzunluktaki kÄ±smÄ±nÄ± silen bir metot yazÄ±n. Ã–rneÄŸin, "Hello World" string'inden "World" kelimesini silin.
+            //Bir string'in belirli bir indeksinden başlayarak belirli bir uzunluktaki kısmını silen bir metot yazın. Örneğin, "Hello World" string'inden "World" kelimesini silin.
             //Cevap:
+
+            string soru7 = "Hello World";
+            string silinecekString = "World";
+            int index = soru7.IndexOf(silinecekString);
+            yeniString = soru7.Remove(index, silinecekString.Length);
+            Console.WriteLine(yeniString);
 
             //Soru8: (String Split)
-            //Bir string'i belirli bir karaktere gÃ¶re bÃ¶len bir metot yazÄ±n. Ã–rneÄŸin, "Hello,World" string'ini virgÃ¼l karakterine gÃ¶re bÃ¶lÃ¼n.
+            //Bir string'i belirli bir karaktere göre bölen bir metot yazın. Örneğin, "Hello,World" string'ini virgül karakterine göre bölün.
             //Cevap:
+
+            string soru8 = "Hello,World";
+            string[] parcalar = soru8.Split(',');
+            foreach (string parca in parcalar)
+            {
+                Console.WriteLine(parca);
+            }
 
             //Soru9: (String Replace)
-            //Bir string iÃ§inde belirli bir alt string'i baÅŸka bir alt string ile deÄŸiÅŸtiren bir metot yazÄ±n. Ã–rneÄŸin, "Hello World" string'inde "World" kelimesini "C#" ile deÄŸiÅŸtirin.
+            //Bir string içinde belirli bir alt string'i başka bir alt string ile değiştiren bir metot yazın. Örneğin, "Hello World" string'inde "World" kelimesini "C#" ile değiştirin.
             //Cevap:
 
+            string soru9 = "Hello World";
+            string degisecekString = "World";
+            string yeniDeger = "C#";
+            yeniString = soru9.Replace(degisecekString, yeniDeger);
+            Console.WriteLine(yeniString);
+
             //Soru10: (String Trim)
-            //Bir string'in baÅŸÄ±ndaki ve sonundaki boÅŸluklarÄ± kaldÄ±ran bir metot yazÄ±n. Ã–rneÄŸin, " Hello World " string'inin baÅŸÄ±ndaki ve sonundaki boÅŸluklarÄ± kaldÄ±rÄ±n.
+            //Bir string'in başındaki ve sonundaki boşlukları kaldıran bir metot yazın. Örneğin, " Hello World " string'inin başındaki ve sonundaki boşlukları kaldırın.
             //Cevap:
 
             //Soru11: (String IndexOf)
-            //Bir string iÃ§inde belirli bir karakterin veya alt string'in ilk geÃ§tiÄŸi indeksi bulan bir metot yazÄ±n. Ã–rneÄŸin, "Hello World" string'inde "World" kelimesinin baÅŸladÄ±ÄŸÄ± indeksi bulun.
+            //Bir string içinde belirli bir karakterin veya alt string'in ilk geçtiği indeksi bulan bir metot yazın. Örneğin, "Hello World" string'inde "World" kelimesinin başladığı indeksi bulun.
             //Cevap:
 
             //Soru12: (Struct)
-            //Bir struct tanÄ±mlayÄ±n ve bu struct'Ä± kullanarak bir nesne oluÅŸturun. Ã–rneÄŸin, bir Point struct'Ä± tanÄ±mlayÄ±n ve bu struct'Ä± kullanarak bir nokta nesnesi oluÅŸturun.
+            //Bir struct tanımlayın ve bu struct'ı kullanarak bir nesne oluşturun. Örneğin, bir Point struct'ı tanımlayın ve bu struct'ı kullanarak bir nokta nesnesi oluşturun.
             //Cevap:
 
             //Soru13: (Enum)
-            //Bir enum tanÄ±mlayÄ±n ve bu enum'Ä± kullanarak bir deÄŸiÅŸken oluÅŸturun. Ã–rneÄŸin, bir DaysOfWeek enum'Ä± tanÄ±mlayÄ±n ve bu enum'Ä± kullanarak bir gÃ¼n deÄŸiÅŸkeni oluÅŸturup bir fonksiyonlarla birlikte kullanÄ±n.
+            //Bir enum tanımlayın ve bu enum'ı kullanarak bir değişken oluşturun. Örneğin, bir DaysOfWeek enum'ı tanımlayın ve bu enum'ı kullanarak bir gün değişkeni oluşturup bir fonksiyonlarla birlikte kullanın.
             //Cevap:
 
 
