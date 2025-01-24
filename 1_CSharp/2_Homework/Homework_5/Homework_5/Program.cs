@@ -114,6 +114,8 @@ namespace Homework_5
             //Bir string'in baþýndaki ve sonundaki boþluklarý kaldýran bir metot yazýn. Örneðin, " Hello World " string'inin baþýndaki ve sonundaki boþluklarý kaldýrýn.
             //Cevap:
 
+            
+
             //Soru11: (String IndexOf)
             //Bir string içinde belirli bir karakterin veya alt string'in ilk geçtiði indeksi bulan bir metot yazýn. Örneðin, "Hello World" string'inde "World" kelimesinin baþladýðý indeksi bulun.
             //Cevap:
