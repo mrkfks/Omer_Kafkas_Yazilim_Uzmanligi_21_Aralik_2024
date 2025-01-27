@@ -10,7 +10,9 @@ namespace Homework_5
     {
         public void Main(string[] args)
         {
-            //Soru1: (Nullable Types)
+            Actions action = new Actions();
+
+                        //Soru1: (Nullable Types)
             //Bir int? deðiþken tanýmlayýn ve bu deðiþkenin null olup olmadýðýný kontrol eden bir kod yazýn.
             //Cevap:
 
@@ -30,7 +32,8 @@ namespace Homework_5
 
             string str1 = "Hello";
             string str2 = "World";
-            string str3 = string.Concat(str1, str2);
+          
+            action.stringConcat(str1, str2);
 
             //Soru3: (String Equals)
             //Ýki string deðiþkeninin eþit olup olmadýðýný kontrol eden bir kod yazýn. Büyük/küçük harf duyarlýlýðýný göz önünde bulundurun.
@@ -38,37 +41,21 @@ namespace Homework_5
 
             string str4 = "Hello";
             string str5 = "hello";
-            if (str4.Equals(str5, StringComparison.Ordinal))
-            {
-                Console.WriteLine("str4 and str5 are not equal");
-            }
-            else
-            {
-                Console.WriteLine("str4 and str5 are equal");
-            }
+            action.stringEquals(str4, str5);
 
             //Soru4: (String Contains)
             //Bir string içinde belirli bir alt string'in olup olmadýðýný kontrol eden bir metot yazýn. Örneðin, "Hello World" içinde "World" kelimesinin olup olmadýðýný kontrol edin.
             //Cevap:
 
-            string soru4 = "Hello World";
-            if ( soru4.Contains("World"))
-            {
-                Console.WriteLine("Referans metin içerisinde aranan deger bulunmaktadir");
-            }
-            else
-            {
-                Console.WriteLine("Referans metin içerisinde aranan deger bulunmamaktadir");
-            };
-
+            string text = "Hello World";
+            string word5 = "World";
+            action.stringContains(text, word5);
 
             //Soru5: (String Substring)
             //Bir string'in belirli bir indeksinden baþlayarak bir alt string elde eden bir metot yazýn. Örneðin, "Hello World" string'inden "World" kelimesini çýkarýn.
             //Cevap:
 
-            string soru5 = "Hello World";
-            string altString = soru5.Substring(6, 5);
-            Console.WriteLine(altString);
+            action.stringSubstring("Hello Word", 6, 5);
 
             //Soru6: (String Insert)
             //Bir string'in belirli bir indeksine baþka bir string ekleyen bir metot yazýn. Örneðin, "Hello" string'ine 5. indeksten sonra " World" ekleyin.
@@ -76,29 +63,23 @@ namespace Homework_5
 
             string soru6 = "Hello";
             string eklenecekString = "World";
-            string yeniString = soru6.Insert(soru6.Length, eklenecekString);
-            Console.WriteLine(yeniString);
+            action.stringInsert(soru6, 5, eklenecekString);
 
             //Soru7: (String Remove)
             //Bir string'in belirli bir indeksinden baþlayarak belirli bir uzunluktaki kýsmýný silen bir metot yazýn. Örneðin, "Hello World" string'inden "World" kelimesini silin.
             //Cevap:
 
-            string soru7 = "Hello World";
-            string silinecekString = "World";
-            int index = soru7.IndexOf(silinecekString);
-            yeniString = soru7.Remove(index, silinecekString.Length);
-            Console.WriteLine(yeniString);
+            string text3 = "Hello World";
+            string deleteString = "World";
+            action.stringRemove(text3, deleteString);
 
             //Soru8: (String Split)
             //Bir string'i belirli bir karaktere göre bölen bir metot yazýn. Örneðin, "Hello,World" string'ini virgül karakterine göre bölün.
             //Cevap:
 
             string soru8 = "Hello,World";
-            string[] parcalar = soru8.Split(',');
-            foreach (string parca in parcalar)
-            {
-                Console.WriteLine(parca);
-            }
+            char bracket = ',';
+            action.stringSplit(soru8, bracket);
 
             //Soru9: (String Replace)
             //Bir string içinde belirli bir alt string'i baþka bir alt string ile deðiþtiren bir metot yazýn. Örneðin, "Hello World" string'inde "World" kelimesini "C#" ile deðiþtirin.
@@ -107,22 +88,36 @@ namespace Homework_5
             string soru9 = "Hello World";
             string degisecekString = "World";
             string yeniDeger = "C#";
-            yeniString = soru9.Replace(degisecekString, yeniDeger);
-            Console.WriteLine(yeniString);
+            action.stringReplace(soru9, degisecekString, yeniDeger);
 
             //Soru10: (String Trim)
             //Bir string'in baþýndaki ve sonundaki boþluklarý kaldýran bir metot yazýn. Örneðin, " Hello World " string'inin baþýndaki ve sonundaki boþluklarý kaldýrýn.
             //Cevap:
 
-            
+            action.stringTrim(" Hello World ");
 
             //Soru11: (String IndexOf)
             //Bir string içinde belirli bir karakterin veya alt string'in ilk geçtiði indeksi bulan bir metot yazýn. Örneðin, "Hello World" string'inde "World" kelimesinin baþladýðý indeksi bulun.
             //Cevap:
 
+            string Soru11 = "Hello World";
+            string textSearch = "World";
+            action.stringIndexOf(Soru11, textSearch);
+
             //Soru12: (Struct)
             //Bir struct tanýmlayýn ve bu struct'ý kullanarak bir nesne oluþturun. Örneðin, bir Point struct'ý tanýmlayýn ve bu struct'ý kullanarak bir nokta nesnesi oluþturun.
             //Cevap:
+            Personel personel = new Personel()
+            {
+                name = "Ali",
+                surname = "Kýran",
+                age = 25,
+                city = "Ýstanbul"
+            };
+
+
+
+
 
             //Soru13: (Enum)
             //Bir enum tanýmlayýn ve bu enum'ý kullanarak bir deðiþken oluþturun. Örneðin, bir DaysOfWeek enum'ý tanýmlayýn ve bu enum'ý kullanarak bir gün deðiþkeni oluþturup bir fonksiyonlarla birlikte kullanýn.

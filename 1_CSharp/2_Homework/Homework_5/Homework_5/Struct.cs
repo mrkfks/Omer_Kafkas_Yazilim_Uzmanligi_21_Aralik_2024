@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Homework_5
 {
-    internal class Struct
+    public struct Personel
     {
-    }
+        public string name;
+        public string surname;
+        public int age;
+        public string city;
+    };
+
+
+    
 }
+    
+        
+      
+
+    
