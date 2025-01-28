@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Homework_5
 {
-    internal class Enum
+    public enum DaysOfWeek
     {
+        PAZARTEİ,
+        SALI,
+        ÇARŞAMBA,
+        PERŞEMBE,
+        CUMA,
+        CUMARTESİ,
+        PAZAR,
+
     }
 }
