@@ -151,7 +151,7 @@ int index = 4;
 int size = cities.Length;
 Console.WriteLine("Dizi size : " + size);
 
-if (index > -1 && sizew > index)
+if (index > -1 && size > index)
 {
     Console.WriteLine("Seçilen şehir: " + cities[index]);
 }

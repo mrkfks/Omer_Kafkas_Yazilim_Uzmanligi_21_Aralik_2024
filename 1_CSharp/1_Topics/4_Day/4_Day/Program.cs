@@ -1,5 +1,4 @@
 ﻿using System;
-<<<<<<< Updated upstream
 using System.Diagnostics.Eventing.Reader;
 using System.Globalization;
 using System.Runtime.InteropServices;
@@ -120,22 +119,10 @@ class Program
             }
             Console.WriteLine($"do while call -> y: {y}");
             y++;
-        } while (y < 10);
-
-        Console.WriteLine("Thid line Call");
-=======
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _4_Day
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
         }
->>>>>>> Stashed changes
+        while (y < 10);
+        {
+            Console.WriteLine("Thid line Call");
+        }
     }
 }
