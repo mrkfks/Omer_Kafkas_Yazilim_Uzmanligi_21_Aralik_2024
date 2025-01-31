@@ -14,11 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
@@ -26,9 +30,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\1_Day\\1_Day\\Program.cs",
               "RelativeDocumentMoniker": "1_Day\\Program.cs",
-              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\1_Day\\1_Day\\Program.cs*",
-              "RelativeToolTip": "1_Day\\Program.cs*",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\1_Day\\1_Day\\Program.cs",
+              "RelativeToolTip": "1_Day\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAD4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T07:49:00.84Z",
               "EditorCaption": ""

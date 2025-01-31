@@ -59,7 +59,8 @@ Console.WriteLine(sh3);
 long long1 = 99999999999999999;
 Console.WriteLine(long1);
 
-//string ID
+//string ID ID genellikle bir veritabanı tablosunda
+//bulunan bir kaydın benzersiz bir şekilde tanımlanmasını sağlayan bir değerdir.
 
 string ID = "a01sd2x45d5gb5r2e0d4e5f7";
 
