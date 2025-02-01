@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _12_Day
+namespace _12_Day.users
 {
-    public class Program
+    internal class users
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
