@@ -120,6 +120,8 @@ namespace Homework_5
             //Bir string içinde belirli bir karakterin veya alt string'in ilk geçtiði indeksi bulan bir metot yazýn. Örneðin, "Hello World" string'inde "World" kelimesinin baþladýðý indeksi bulun.
             //Cevap:
 
+
+
             //Soru12: (Struct)
             //Bir struct tanýmlayýn ve bu struct'ý kullanarak bir nesne oluþturun. Örneðin, bir Point struct'ý tanýmlayýn ve bu struct'ý kullanarak bir nokta nesnesi oluþturun.
             //Cevap:
