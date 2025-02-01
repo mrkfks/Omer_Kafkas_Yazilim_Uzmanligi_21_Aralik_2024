@@ -11,35 +11,26 @@ namespace _6_Day
         // 123Ali
         public bool StringValid(string data)
         {
-            // char[] arr = data.ToCharArray();
             char[] numbers = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-            bool status = true;
             foreach (char c in data)
             {
-                foreach (char n in numbers)
+                if (numbers.Contains(c))
                 {
-                    if (c == n)
-                    {
-                        status = false;
-                        break;
-                    }
-                    else
-                    {
-                        status = true;
-                    }
+                    return false;
                 }
             }
-            return status;
+            return true;
         }
-
 
         public void Fibonacci(int number)
         {
-            int a = 0;
+            int a = 0, b = 1, c;
             for (int i = 0; i < number; i++)
             {
                 Console.WriteLine(a);
-                a = i + a;
+                c = a + b;
+                a = b;
+                b = c;
             }
         }
     }
