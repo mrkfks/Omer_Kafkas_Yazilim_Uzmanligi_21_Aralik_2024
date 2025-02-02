@@ -1,1 +1,3 @@
 # Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024
+
+Açıklama
