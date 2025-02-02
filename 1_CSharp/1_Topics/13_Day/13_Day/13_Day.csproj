@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EB8E7F13-7375-4AA4-B7F0-30968A03BCD6}</ProjectGuid>
+    <ProjectGuid>{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_12_Day</RootNamespace>
-    <AssemblyName>12_Day</AssemblyName>
+    <RootNamespace>_13_Day</RootNamespace>
+    <AssemblyName>13_Day</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="inheritance\A.cs" />
-    <Compile Include="inheritance\Base.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="users\UserLogin.cs" />
+    <Compile Include="users\Admin.cs" />
+    <Compile Include="users\Customer.cs" />
+    <Compile Include="users\Person.cs" />
+    <Compile Include="users\Users.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

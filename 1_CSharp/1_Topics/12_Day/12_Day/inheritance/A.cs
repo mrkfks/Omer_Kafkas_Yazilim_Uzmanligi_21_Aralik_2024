@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _12_Day
+namespace _12_Day.inheritance
 {
-    public class Program
+    internal class A
     {
-        public static void Main (string[] args)
-        {
-
-        }
     }
 }
