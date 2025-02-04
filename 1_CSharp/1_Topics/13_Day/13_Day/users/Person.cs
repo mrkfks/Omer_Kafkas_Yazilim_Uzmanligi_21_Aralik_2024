@@ -9,9 +9,17 @@ namespace _13_Day.users
     public class Person
     {
         public string nameSurname = "";
+
+        //virtual -> override edilmeye uygun
+
         public virtual bool Login(string username, string password)
-        { 
-            return false;
+        {
+            return true;
+        }
+
+        public void DBConnect (string tableName)
+        {
+            Console.WriteLine($"{tableName} table select");
         }
     }
 }

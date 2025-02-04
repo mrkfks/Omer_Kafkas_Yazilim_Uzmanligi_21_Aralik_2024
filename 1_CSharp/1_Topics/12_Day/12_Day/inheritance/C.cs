@@ -6,18 +6,12 @@ using System.Threading.Tasks;
 
 namespace _12_Day.inheritance
 {
-    public class Base
-    {
-        public virtual void Call()
-        {
-            Console.WriteLine("Base Call");
-        }
-    }
-    public class B : Base
+    public class C : Base
     {
         public override void Call()
         {
-            Console.WriteLine("B Write Call");
+            Console.WriteLine("C Write Call");
         }
+
     }
 }
