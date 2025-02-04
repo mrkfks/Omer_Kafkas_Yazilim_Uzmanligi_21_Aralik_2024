@@ -11,7 +11,9 @@ namespace Stok_Takip_Sistemi
         static void Main(string[] args)
         {
             Console.WriteLine("Stok Takip Sistemi");
-            
+            Console.WriteLine("1. Ürün Ekle");
+            Console.WriteLine("2. Ürün Sil");
+            Console.WriteLine("3. Ürünleri Listele");
         }
     }
 }
