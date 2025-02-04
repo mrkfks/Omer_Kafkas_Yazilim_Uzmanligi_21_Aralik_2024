@@ -1,11 +1,18 @@
 {
   "Version": 1,
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_3\\",
   "Documents": [
     {
 <<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{9CFF6D91-6870-44C7-BA13-56A7812F0A81}|Homework_3\\Homework_3.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\2_homework\\homework_3\\homework_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+  "WorkspaceRootPath": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CFF6D91-6870-44C7-BA13-56A7812F0A81}|Homework_3\\Homework_3.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\2_homework\\homework_3\\homework_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
 =======
   "WorkspaceRootPath": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_3\\",
   "Documents": [
@@ -57,6 +64,7 @@
               "DocumentIndex": 0,
               "Title": "Program.cs",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
               "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_3\\Homework_3\\Program.cs",
               "RelativeDocumentMoniker": "Homework_3\\Program.cs",
               "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_3\\Homework_3\\Program.cs",
@@ -66,6 +74,13 @@
 =======
               "ViewState": "AgIAAD0AAAAAAAAAAAAgwEwAAABDAAAAAAAAAA==",
 >>>>>>> a43c26fba7730da300e674a0c83196a417228455
+=======
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_3\\Homework_3\\Program.cs",
+              "RelativeDocumentMoniker": "Homework_3\\Program.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_3\\Homework_3\\Program.cs",
+              "RelativeToolTip": "Homework_3\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBAAAAAuAAAAAAAAAA==",
+>>>>>>> Stashed changes
 =======
               "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\2_Homework\\Homework_3\\Homework_3\\Program.cs",
               "RelativeDocumentMoniker": "Homework_3\\Program.cs",
