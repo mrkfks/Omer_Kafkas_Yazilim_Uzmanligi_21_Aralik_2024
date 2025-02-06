@@ -1,7 +1,0 @@
-C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Stok Takip Sistemi\Stok Takip Sistemi\bin\Debug\Stok Takip Sistemi.exe.config
-C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Stok Takip Sistemi\Stok Takip Sistemi\bin\Debug\Stok Takip Sistemi.exe
-C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Stok Takip Sistemi\Stok Takip Sistemi\bin\Debug\Stok Takip Sistemi.pdb
-C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Stok Takip Sistemi\Stok Takip Sistemi\obj\Debug\Stok Takip Sistemi.csproj.AssemblyReference.cache
-C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Stok Takip Sistemi\Stok Takip Sistemi\obj\Debug\Stok Takip Sistemi.csproj.CoreCompileInputs.cache
-C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Stok Takip Sistemi\Stok Takip Sistemi\obj\Debug\Stok Takip Sistemi.exe
-C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Stok Takip Sistemi\Stok Takip Sistemi\obj\Debug\Stok Takip Sistemi.pdb
