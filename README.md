@@ -1,24 +1,22 @@
 <h1>Omer Kafkas Yazilim Uzmanligi 21 Aralik 2024 Baslangic Tarihli Eğitim</h1>
 
 <h2>Sıfırdan Yazılım Mühendisi & Uzmanı Yetiştirme ve Geliştirme Programı</h2>
-<p>
--Yazılıma Giriş ve Temel Kavramlar
--C# ile Programlamaya Giriş
--Nesneye Dayalı Programlama (OOP)
--MS SQL Server Veritabanı Sorgulama, Programlama ve Yönetimi
--SQL Server İleri Seviye Konular
--NoSQL ile Veritabanı Yönetimi ve Sorgulama
--Windows Form ile Görsel Programlamaya Giriş
--Giriş / Çıkış (Dosya) İşlemleri
--Front-End Programlama (Web Programlama / HTML & CSS) HTML
--CSS
--JAVASCRIPT & JQUERY 
--JAVASCRIPT
--JQUERY
--TypeScript Dili ve Angular Programlama
--Node.JS ile Uygulama Geliştirme
--Web API ile Uygulama Geliştirme
-</p>
+<h3>-Yazılıma Giriş ve Temel Kavramlar</h3>
+<h3>-C# ile Programlamaya Giriş</h3>
+<p>-Nesneye Dayalı Programlama (OOP)</p>
+<h3>-MS SQL Server Veritabanı Sorgulama, Programlama ve Yönetimi</h3>
+<p>-SQL Server İleri Seviye Konular</p>
+<p>-NoSQL ile Veritabanı Yönetimi ve Sorgulama</p>
+<h3>-Windows Form ile Görsel Programlamaya Giriş</h3>
+<p>-Giriş / Çıkış (Dosya) İşlemleri</p>
+<h3>-Front-End Programlama (Web Programlama / HTML & CSS) HTML</h3>
+<p>-CSS</p>
+<p>-JAVASCRIPT & JQUERY</p>
+<p>-JAVASCRIPT</p>
+<p>-JQUERY</p>
+<p>-TypeScript Dili ve Angular Programlama</p>
+<p>-Node.JS ile Uygulama Geliştirme</p>
+<p>-Web API ile Uygulama Geliştirme</p>
 
 <p>
 <img src="https://github.com/hakanozer/magazaYonetim/blob/master/Proje%20G%C3%B6r%C3%BCnt%C3%BCleri/SuperAdminEkrani.png" width="200"/>
