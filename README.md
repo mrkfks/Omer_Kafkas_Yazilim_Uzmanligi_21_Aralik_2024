@@ -1,6 +1,6 @@
+<h1>Omer Kafkas Yazilim Uzmanligi 21 Aralik 2024 Baslangic Tarihli Eğitim</h1>
 
-##Omer Kafkas Yazilim Uzmanligi 21 Aralik 2024 Baslangic Tarihli Eğitim
-##Sıfırdan Yazılım Mühendisi & Uzmanı Yetiştirme ve Geliştirme Programı 
+Sıfırdan Yazılım Mühendisi & Uzmanı Yetiştirme ve Geliştirme Programı 
 <p>
 -Yazılıma Giriş ve Temel Kavramlar
 -C# ile Programlamaya Giriş
