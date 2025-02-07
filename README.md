@@ -1,6 +1,5 @@
-<h1>Omer Kafkas Yazilim Uzmanligi 21 Aralik 2024 Baslangic Tarihli Eğitim</h1>
-
-<h2>Sıfırdan Yazılım Mühendisi & Uzmanı Yetiştirme ve Geliştirme Programı</h2>
+<h1>Sıfırdan Yazılım Mühendisi & Uzmanı Yetiştirme ve Geliştirme Programı</h1>
+<h2>Omer Kafkas Yazilim Uzmanligi 21 Aralik 2024 Baslangic Tarihli Eğitim</h2>
 <h3>-Yazılıma Giriş ve Temel Kavramlar</h3>
 <h3>-C# ile Programlamaya Giriş</h3>
 <p>-Nesneye Dayalı Programlama (OOP)</p>
@@ -21,3 +20,5 @@
 <p>
 <img src="https://github.com/hakanozer/magazaYonetim/blob/master/Proje%20G%C3%B6r%C3%BCnt%C3%BCleri/SuperAdminEkrani.png" width="200"/>
 </p>
+
+
