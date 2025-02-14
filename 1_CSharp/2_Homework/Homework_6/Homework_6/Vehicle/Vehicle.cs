@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace Homework_6.Vehicle
 {
-    namespace Homework_6.Vehicle
+    public abstract class Vehicle
     {
-        public class Vehicle
-        {
-           
-            
-        }
+        public abstract double FuelEfficiency 
+        { get; set;}
     }
-
 }

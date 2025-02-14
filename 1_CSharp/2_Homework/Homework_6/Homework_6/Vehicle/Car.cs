@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Homework_6.Vehicle
 {
-    public class Car
+    public class Car : Vehicle
     {
-        public Car() 
-        {
-          
+        private double fuelEfficiency;
 
+        public override double FuelEfficiency
+        {
+            get { return fuelEfficiency; }
+            set { fuelEfficiency = value; }
         }
     }
+
 }
