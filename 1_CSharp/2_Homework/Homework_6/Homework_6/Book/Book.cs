@@ -8,11 +8,18 @@ namespace Homework_6.Book
 {
     public class Book
     {
-        public string Title { get; }
+        private string title = "Ali";
+        public string Title 
+        { 
+            get { return title; } 
+        }
+
+
+        private string author = "Veli";
         public string Author 
         {
-            get;
-            set {throw new NotImplementedException();}
+            get { return author; }
+            set {author = value;}
         }
     }
 }

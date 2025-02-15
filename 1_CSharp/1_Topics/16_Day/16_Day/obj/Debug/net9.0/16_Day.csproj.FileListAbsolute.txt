@@ -1,0 +1,15 @@
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\bin\Debug\net9.0\16_Day.exe
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\bin\Debug\net9.0\16_Day.deps.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\bin\Debug\net9.0\16_Day.runtimeconfig.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\bin\Debug\net9.0\16_Day.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\bin\Debug\net9.0\16_Day.pdb
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\obj\Debug\net9.0\16_Day.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\obj\Debug\net9.0\16_Day.AssemblyInfoInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\obj\Debug\net9.0\16_Day.AssemblyInfo.cs
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\obj\Debug\net9.0\16_Day.csproj.CoreCompileInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\obj\Debug\net9.0\16_Day.sourcelink.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\obj\Debug\net9.0\16_Day.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\obj\Debug\net9.0\refint\16_Day.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\obj\Debug\net9.0\16_Day.pdb
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\obj\Debug\net9.0\16_Day.genruntimeconfig.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\16_Day\obj\Debug\net9.0\ref\16_Day.dll
