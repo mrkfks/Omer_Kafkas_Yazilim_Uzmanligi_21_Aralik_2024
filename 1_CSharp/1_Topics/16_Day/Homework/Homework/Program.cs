@@ -4,9 +4,8 @@
     {
         public static void Main(string[] args)
         {
-            // Create a new instance of the Homework class
             Homework homework = new Homework();
-            // Call the Run method of the Homework class
+
             homework.Run();
         }
     }

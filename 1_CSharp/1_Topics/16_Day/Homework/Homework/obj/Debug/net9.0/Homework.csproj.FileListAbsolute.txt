@@ -1,0 +1,15 @@
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\bin\Debug\net9.0\Homework.exe
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\bin\Debug\net9.0\Homework.deps.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\bin\Debug\net9.0\Homework.runtimeconfig.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\bin\Debug\net9.0\Homework.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\bin\Debug\net9.0\Homework.pdb
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\obj\Debug\net9.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\obj\Debug\net9.0\Homework.AssemblyInfoInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\obj\Debug\net9.0\Homework.AssemblyInfo.cs
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\obj\Debug\net9.0\Homework.csproj.CoreCompileInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\obj\Debug\net9.0\Homework.sourcelink.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\obj\Debug\net9.0\Homework.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\obj\Debug\net9.0\refint\Homework.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\obj\Debug\net9.0\Homework.pdb
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\obj\Debug\net9.0\Homework.genruntimeconfig.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\16_Day\Homework\Homework\obj\Debug\net9.0\ref\Homework.dll

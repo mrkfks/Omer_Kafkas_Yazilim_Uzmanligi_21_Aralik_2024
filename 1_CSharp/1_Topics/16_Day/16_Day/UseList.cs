@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _16_Day.models
+namespace _17_Day.models
 {
     public struct Product
     {
@@ -65,7 +65,50 @@ namespace _16_Day.models
             // ürün ekleme
             // istenen ürünün silinmesi
             // index değeri iste, bu indexin var olup olmadığını kıyasla.
-            // eğer silinmek istenen index yoksa uyarı ver. 
+            // eğer silinmek istenen index yoksa uyarı ver.
+
+            Console.WriteLine("===============");
+            // sil - for
+            Console.WriteLine("Silme için 'X'");
+            string deleteStatus = Console.ReadLine();
+            if (deleteStatus.Equals("X"))
+            {
+                for (; ; )
+                {
+                    Console.WriteLine("Silmek istediğiniz sırayı giriniz");
+                    string stIndex = Console.ReadLine();
+                    try
+                    {
+                        int index = Convert.ToInt32(stIndex);
+                        if (index > 0)
+                        {
+                            index = index - 1;
+                            if (index < products.Count)
+                            {
+                                products.RemoveAt(index);
+                                Console.WriteLine("Silme işlemi devam etsin mi?, 'D'");
+                                string delete = Console.ReadLine();
+                                if (!delete.Equals("D"))
+                                {
+                                    break;
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Silmek istediğiniz ürün bulunumadı!");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Lüfen sadece pozitif değerler giriniz!");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Lütfen sadece sayısal değer giriniz!");
+                    }
+                }
+            }
 
             for (; ; )
             {
