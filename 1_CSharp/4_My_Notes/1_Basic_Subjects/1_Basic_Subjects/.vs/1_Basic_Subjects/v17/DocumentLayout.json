@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\4_My_Notes\\1_Basic_Subjects\\1_Basic_Subjects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7DAB31B-6013-4D4D-B46C-55B299247382}|1_Basic_Subjects\\1_Basic_Subjects.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\4_my_notes\\1_basic_subjects\\1_basic_subjects\\1_basic_subjects\\de\u011Fer t\u00FCrleri.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "RelativeMoniker": "D:0:0:{F7DAB31B-6013-4D4D-B46C-55B299247382}|1_Basic_Subjects\\1_Basic_Subjects.csproj|solutionrelative:1_basic_subjects\\de\u011Fer t\u00FCrleri.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7DAB31B-6013-4D4D-B46C-55B299247382}|1_Basic_Subjects\\1_Basic_Subjects.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\4_my_notes\\1_basic_subjects\\1_basic_subjects\\1_basic_subjects\\temel kavramlar.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}",
+      "RelativeMoniker": "D:0:0:{F7DAB31B-6013-4D4D-B46C-55B299247382}|1_Basic_Subjects\\1_Basic_Subjects.csproj|solutionrelative:1_basic_subjects\\temel kavramlar.md||{24510B54-A648-4D69-A6C5-F68CBDF07546}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7DAB31B-6013-4D4D-B46C-55B299247382}|1_Basic_Subjects\\1_Basic_Subjects.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\4_my_notes\\1_basic_subjects\\1_basic_subjects\\1_basic_subjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7DAB31B-6013-4D4D-B46C-55B299247382}|1_Basic_Subjects\\1_Basic_Subjects.csproj|solutionrelative:1_basic_subjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "De\u011Fer T\u00FCrleri.md",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\4_My_Notes\\1_Basic_Subjects\\1_Basic_Subjects\\1_Basic_Subjects\\De\u011Fer T\u00FCrleri.md",
+              "RelativeDocumentMoniker": "1_Basic_Subjects\\De\u011Fer T\u00FCrleri.md",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\4_My_Notes\\1_Basic_Subjects\\1_Basic_Subjects\\1_Basic_Subjects\\De\u011Fer T\u00FCrleri.md",
+              "RelativeToolTip": "1_Basic_Subjects\\De\u011Fer T\u00FCrleri.md",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAEEAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-02-17T14:27:48.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Temel Kavramlar.md",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\4_My_Notes\\1_Basic_Subjects\\1_Basic_Subjects\\1_Basic_Subjects\\Temel Kavramlar.md",
+              "RelativeDocumentMoniker": "1_Basic_Subjects\\Temel Kavramlar.md",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\4_My_Notes\\1_Basic_Subjects\\1_Basic_Subjects\\1_Basic_Subjects\\Temel Kavramlar.md",
+              "RelativeToolTip": "1_Basic_Subjects\\Temel Kavramlar.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-02-17T12:58:23.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\4_My_Notes\\1_Basic_Subjects\\1_Basic_Subjects\\1_Basic_Subjects\\Program.cs",
+              "RelativeDocumentMoniker": "1_Basic_Subjects\\Program.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\4_My_Notes\\1_Basic_Subjects\\1_Basic_Subjects\\1_Basic_Subjects\\Program.cs",
+              "RelativeToolTip": "1_Basic_Subjects\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:00:29.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
