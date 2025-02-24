@@ -27,6 +27,14 @@
             //sıralama algoritması eklenen değerin bellekteki hashcode büyüklüğüne göre yapılır.
             //benzersiz değerleri kendisinde saklar.
 
+            //SortedSet<T>
+            //Brnzersiz öğeleri sıralı bir şekilde saklar.
+
+            //Dictionary<TKey, TValue>
+            //Key (Anahtar) ve Value(Değer) çifti değerlerini saklar.
+            //index algoritması yoktur.
+
+
             UseLinkedList useLinkedList = new UseLinkedList();
             useLinkedList.Call();
 
@@ -42,6 +50,9 @@
             UseHashSet useHashSet = new UseHashSet();
             useHashSet.Call();
 
+            Console.WriteLine("*******************");
+            UseSortedSet useSortedSet = new UseSortedSet();
+            useSortedSet.Call();
 
 
 

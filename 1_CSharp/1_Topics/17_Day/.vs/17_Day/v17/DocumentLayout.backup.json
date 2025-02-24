@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\usehashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|solutionrelative:17_day\\usehashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\usesortedset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|solutionrelative:17_day\\usesortedset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|solutionrelative:17_day\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|solutionrelative:17_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|solutionrelative:17_day\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|solutionrelative:17_day\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\usehashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|solutionrelative:17_day\\usehashset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\usestack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\uselinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|solutionrelative:17_day\\uselinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|solutionrelative:17_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{23E9F976-E16C-4566-9A85-8318C31C2803}|17_Day\\17_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\17_day\\17_day\\usequeue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,19 +51,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UseHashSet.cs",
-              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\UseHashSet.cs",
-              "RelativeDocumentMoniker": "17_Day\\UseHashSet.cs",
-              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\UseHashSet.cs*",
-              "RelativeToolTip": "17_Day\\UseHashSet.cs*",
-              "ViewState": "AgIAADUAAAAAAAAAAAAYwEcAAAAmAAAAAAAAAA==",
+              "Title": "UseSortedSet.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\UseSortedSet.cs",
+              "RelativeDocumentMoniker": "17_Day\\UseSortedSet.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\UseSortedSet.cs",
+              "RelativeToolTip": "17_Day\\UseSortedSet.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwD4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T09:24:03.894Z",
+              "WhenOpened": "2025-02-23T06:26:30.628Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "UseHashSet.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\UseHashSet.cs",
+              "RelativeDocumentMoniker": "17_Day\\UseHashSet.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\UseHashSet.cs",
+              "RelativeToolTip": "17_Day\\UseHashSet.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAYwEcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T09:24:03.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UseStack.cs",
               "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\UseStack.cs",
               "RelativeDocumentMoniker": "17_Day\\UseStack.cs",
@@ -67,12 +83,11 @@
               "RelativeToolTip": "17_Day\\UseStack.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T08:51:55.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T08:51:55.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UseQueue.cs",
               "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\UseQueue.cs",
               "RelativeDocumentMoniker": "17_Day\\UseQueue.cs",
@@ -80,12 +95,11 @@
               "RelativeToolTip": "17_Day\\UseQueue.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAQwBMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T08:18:51.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T08:18:51.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UseLinkedList.cs",
               "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\UseLinkedList.cs",
               "RelativeDocumentMoniker": "17_Day\\UseLinkedList.cs",
@@ -93,44 +107,43 @@
               "RelativeToolTip": "17_Day\\UseLinkedList.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T07:38:07.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T07:38:07.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\models\\User.cs",
               "RelativeDocumentMoniker": "17_Day\\models\\User.cs",
               "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\models\\User.cs",
               "RelativeToolTip": "17_Day\\models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T06:18:40.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\models\\Product.cs",
               "RelativeDocumentMoniker": "17_Day\\models\\Product.cs",
               "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\models\\Product.cs",
               "RelativeToolTip": "17_Day\\models\\Product.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAcwBgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwBgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T06:16:05.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\Program.cs",
               "RelativeDocumentMoniker": "17_Day\\Program.cs",
               "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\17_Day\\17_Day\\Program.cs",
               "RelativeToolTip": "17_Day\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T06:04:47.41Z",
               "EditorCaption": ""
