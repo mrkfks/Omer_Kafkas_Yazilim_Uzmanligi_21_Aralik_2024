@@ -1,0 +1,14 @@
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\bin\Debug\Anobis.dacpac
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\bin\Debug\Anobis.dll
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\bin\Debug\Anobis.pdb
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\bin\Debug\master.dacpac
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\obj\Debug\Anobis.sqlproj.AssemblyReference.cache
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\obj\Debug\Anobis.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\obj\Debug\Anobis.sourcelink.json
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\obj\Debug\Model.xml
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\obj\Debug\refactor.xml
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\obj\Debug\postdeploy.sql
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\obj\Debug\predeploy.sql
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\obj\Debug\Anobis.sqlproj.Up2Date
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\obj\Debug\Anobis.dll
+c:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\2_SQL\3_Project\Anobis\obj\Debug\Anobis.pdb
