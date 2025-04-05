@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "4FYbcI5ctCo=",
+  "success": true,
+  "projectFilePath": "d:\\Ömer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\Projelerim\\ANOBİS\\ANOBIS\\ANOBIS.sqlproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrkfks\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\mrkfks\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net46\\1.0.0\\microsoft.netframework.referenceassemblies.net46.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\bin\Debug\ANOBIS.dacpac
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\bin\Debug\ANOBIS.dll
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\bin\Debug\ANOBIS.pdb
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\obj\Debug\ANOBIS.sqlproj.AssemblyReference.cache
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\obj\Debug\ANOBIS.GeneratedMSBuildEditorConfig.editorconfig
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\obj\Debug\ANOBIS.sourcelink.json
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\obj\Debug\Model.xml
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\obj\Debug\refactor.xml
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\obj\Debug\postdeploy.sql
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\obj\Debug\predeploy.sql
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\obj\Debug\ANOBIS.dll
+d:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\Projelerim\ANOBİS\ANOBIS\obj\Debug\ANOBIS.pdb

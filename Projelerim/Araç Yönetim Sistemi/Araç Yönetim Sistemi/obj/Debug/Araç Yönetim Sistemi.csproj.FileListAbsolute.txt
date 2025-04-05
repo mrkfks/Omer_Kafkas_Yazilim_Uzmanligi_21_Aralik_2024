@@ -1,0 +1,11 @@
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\bin\Debug\Araç Yönetim Sistemi.exe.config
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\bin\Debug\Araç Yönetim Sistemi.exe
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\bin\Debug\Araç Yönetim Sistemi.pdb
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\obj\Debug\Araç Yönetim Sistemi.csproj.AssemblyReference.cache
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\obj\Debug\Araç Yönetim Sistemi.csproj.CoreCompileInputs.cache
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\obj\Debug\Araç Yönetim Sistemi.exe
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\obj\Debug\Araç Yönetim Sistemi.pdb
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\bin\Debug\Araç Yönetim Sistemi.exe.manifest
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\bin\Debug\Araç Yönetim Sistemi.application
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\obj\Debug\Araç Yönetim Sistemi.exe.manifest
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\3_Projects\Araç Yönetim Sistemi\Araç Yönetim Sistemi\obj\Debug\Araç Yönetim Sistemi.application

@@ -1,0 +1,98 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF99861-4B26-416A-9C70-F0C619592F99}|Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\3_projects\\ara\u00E7 y\u00F6netim sistemi\\ara\u00E7 y\u00F6netim sistemi\\enumcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF99861-4B26-416A-9C70-F0C619592F99}|Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi.csproj|solutionrelative:ara\u00E7 y\u00F6netim sistemi\\enumcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF99861-4B26-416A-9C70-F0C619592F99}|Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi.csproj|C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\ara\u00E7 y\u00F6netim sistemi\\structcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF99861-4B26-416A-9C70-F0C619592F99}|Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi.csproj|solutionrelative:ara\u00E7 y\u00F6netim sistemi\\structcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF99861-4B26-416A-9C70-F0C619592F99}|Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi.csproj|C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\ara\u00E7 y\u00F6netim sistemi\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF99861-4B26-416A-9C70-F0C619592F99}|Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi.csproj|solutionrelative:ara\u00E7 y\u00F6netim sistemi\\cars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF99861-4B26-416A-9C70-F0C619592F99}|Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi.csproj|C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\ara\u00E7 y\u00F6netim sistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF99861-4B26-416A-9C70-F0C619592F99}|Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi.csproj|solutionrelative:ara\u00E7 y\u00F6netim sistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnumCars.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi\\EnumCars.cs",
+              "RelativeDocumentMoniker": "Ara\u00E7 Y\u00F6netim Sistemi\\EnumCars.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi\\EnumCars.cs",
+              "RelativeToolTip": "Ara\u00E7 Y\u00F6netim Sistemi\\EnumCars.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:05:15.677Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StructCars.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi\\StructCars.cs",
+              "RelativeDocumentMoniker": "Ara\u00E7 Y\u00F6netim Sistemi\\StructCars.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi\\StructCars.cs",
+              "RelativeToolTip": "Ara\u00E7 Y\u00F6netim Sistemi\\StructCars.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:04:26.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cars.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi\\Cars.cs",
+              "RelativeDocumentMoniker": "Ara\u00E7 Y\u00F6netim Sistemi\\Cars.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi\\Cars.cs",
+              "RelativeToolTip": "Ara\u00E7 Y\u00F6netim Sistemi\\Cars.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T13:02:10.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi\\Program.cs",
+              "RelativeDocumentMoniker": "Ara\u00E7 Y\u00F6netim Sistemi\\Program.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\3_Projects\\Ara\u00E7 Y\u00F6netim Sistemi\\Ara\u00E7 Y\u00F6netim Sistemi\\Program.cs",
+              "RelativeToolTip": "Ara\u00E7 Y\u00F6netim Sistemi\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T07:02:00.986Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
