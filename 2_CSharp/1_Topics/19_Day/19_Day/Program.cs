@@ -1,7 +1,8 @@
 ﻿using System;
-using 19_Day;
+using _19_Day;
+using System.Data;
 
-namespace 19_Day
+namespace _19_Day
 {
     class Program
 {
@@ -9,6 +10,7 @@ namespace 19_Day
     {
         Contact contact = new Contact(1, "John", "Doe", "john.doe@example.com", "1234567890", "123 Main St");
         ContactService contactService = new ContactService();
+
         int result = contactService.AddContact(contact);
         if (result > 0)
         {
@@ -19,5 +21,5 @@ namespace 19_Day
             Console.WriteLine("Failed to add contact.");
         }      
     }
-}
+    }
 }

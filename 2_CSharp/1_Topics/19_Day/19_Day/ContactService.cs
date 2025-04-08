@@ -1,12 +1,12 @@
 using System.Data;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using _19_Day;
 
 namespace _19_Day
 {
     public class ContactService
     {
-        readonly DB_dB;
+        readonly DB _dB;
 
         public ContactService()
         {
@@ -19,8 +19,8 @@ namespace _19_Day
             try
             //insert query
             {
-                string query = "INSERT INTO Contacts (Name, Surname, Email, Phone, Address) VALUES (@Name, @Surname, @Email, @Phone, @Address)";
-                SqlCommand command = new SqlCommand(query, _dB.Connection);
+                string query = "INSERT INTO Contact (Name, Surname, Email, Phone, Address) VALUES (@Name, @Surname, @Email, @Phone, @Address)";
+                SqlCommand command = new SqlCommand(query, _dB.GetConnection());
                 command.Parameters.AddWithValue("@Name", contact.Name);
                 command.Parameters.AddWithValue("@Surname", contact.Surname);
                 command.Parameters.AddWithValue("@Email", contact.Email);
@@ -29,12 +29,10 @@ namespace _19_Day
 
                 //result = Convrt.ToInt32(command.ExecuteScalar()); SCOPE IDENTITY() ile eklenen satırın ID'sini alırız
                 result = Convert.ToInt32(command.ExecuteScalar()); // SCOPE IDENTITY() ile eklenen satırın ID'sini alırız;
-                return result;
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Error: " + ex.Message);
-                return -1; // Error code
             }
             finally
             {

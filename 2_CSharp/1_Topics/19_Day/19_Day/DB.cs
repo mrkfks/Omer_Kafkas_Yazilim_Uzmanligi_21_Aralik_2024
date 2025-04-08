@@ -5,9 +5,10 @@ namespace _19_Day
 {
     public class DB
     {
-        private static string connectionString = "Server=localhost;Database=contacts;User Id=sa;Password=your_password;"; TrustServerCertificate=True;
+        static string _connectionString = "Server=.;Database=contacts;Integrated Security=True;TrustServerCertificate=True;";
+        SqlConnection _connection = new SqlConnection(_connectionString);
 
-        public static SqlConnection GetConnection()
+        public SqlConnection GetConnection()
         {
             try
             {
@@ -24,7 +25,7 @@ namespace _19_Day
             }
             return _connection;
         }
-    }
+    
     public void CloseConnection()
     {
        try
@@ -40,4 +41,5 @@ namespace _19_Day
            Console.WriteLine("Error closing the database connection: " + ex.Message);
        }
     }
+}
 }
