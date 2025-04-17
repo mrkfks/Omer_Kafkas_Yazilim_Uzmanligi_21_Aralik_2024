@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Days_19")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57c7676b9f253326e84aa1054b53a535a27eb48b")]
-[assembly: System.Reflection.AssemblyProductAttribute("Days_19")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Days_19")]
+[assembly: System.Reflection.AssemblyProductAttribute("library")]
+[assembly: System.Reflection.AssemblyTitleAttribute("library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
