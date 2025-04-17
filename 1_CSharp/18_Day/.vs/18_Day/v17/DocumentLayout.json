@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\18_day\\18_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|solutionrelative:18_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\18_day\\18_day\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|solutionrelative:18_day\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\18_day\\18_day\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|solutionrelative:18_day\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\18_day\\18_day\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|solutionrelative:18_day\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\18_day\\18_day\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|solutionrelative:18_day\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|c:\\users\\omer kafkas\\desktop\\ki\u015Fisel\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\18_day\\18_day\\calls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7452A33D-DCA6-4925-B6BC-A449318E81F2}|18_Day\\18_Day.csproj|solutionrelative:18_day\\calls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Action.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\Action.cs",
+              "RelativeDocumentMoniker": "18_Day\\Action.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\Action.cs",
+              "RelativeToolTip": "18_Day\\Action.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:56:14.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IAction.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\IAction.cs",
+              "RelativeDocumentMoniker": "18_Day\\IAction.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\IAction.cs",
+              "RelativeToolTip": "18_Day\\IAction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:53:57.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\User.cs",
+              "RelativeDocumentMoniker": "18_Day\\User.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\User.cs",
+              "RelativeToolTip": "18_Day\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:50:46.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Calls.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\Calls.cs",
+              "RelativeDocumentMoniker": "18_Day\\Calls.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\Calls.cs",
+              "RelativeToolTip": "18_Day\\Calls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:31:45.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\Profile.cs",
+              "RelativeDocumentMoniker": "18_Day\\Profile.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\Profile.cs",
+              "RelativeToolTip": "18_Day\\Profile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:26:09.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\Program.cs",
+              "RelativeDocumentMoniker": "18_Day\\Program.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Desktop\\Ki\u015Fisel\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\18_Day\\18_Day\\Program.cs",
+              "RelativeToolTip": "18_Day\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:19:20.792Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

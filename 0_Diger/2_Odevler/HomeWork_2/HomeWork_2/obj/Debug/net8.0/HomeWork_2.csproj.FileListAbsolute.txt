@@ -1,0 +1,15 @@
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\obj\Debug\net8.0\HomeWork_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\obj\Debug\net8.0\HomeWork_2.AssemblyInfoInputs.cache
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\obj\Debug\net8.0\HomeWork_2.AssemblyInfo.cs
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\obj\Debug\net8.0\HomeWork_2.csproj.CoreCompileInputs.cache
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\obj\Debug\net8.0\HomeWork_2.sourcelink.json
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\bin\Debug\net8.0\HomeWork_2.exe
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\bin\Debug\net8.0\HomeWork_2.deps.json
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\bin\Debug\net8.0\HomeWork_2.runtimeconfig.json
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\bin\Debug\net8.0\HomeWork_2.dll
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\bin\Debug\net8.0\HomeWork_2.pdb
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\obj\Debug\net8.0\HomeWork_2.dll
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\obj\Debug\net8.0\refint\HomeWork_2.dll
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\obj\Debug\net8.0\HomeWork_2.pdb
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\obj\Debug\net8.0\HomeWork_2.genruntimeconfig.cache
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\HomeWork_2\HomeWork_2\obj\Debug\net8.0\ref\HomeWork_2.dll

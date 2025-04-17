@@ -1,0 +1,14 @@
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\bin\Debug\Homework_3.exe.config
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\bin\Debug\Homework_3.exe
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\bin\Debug\Homework_3.pdb
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\obj\Debug\Homework_3.csproj.AssemblyReference.cache
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\obj\Debug\Homework_3.csproj.CoreCompileInputs.cache
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\obj\Debug\Homework_3.exe
+C:\Users\Omer KAFKAS\Documents\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\obj\Debug\Homework_3.pdb
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\bin\Debug\Homework_3.exe.config
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\bin\Debug\Homework_3.exe
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\bin\Debug\Homework_3.pdb
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\obj\Debug\Homework_3.csproj.AssemblyReference.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\obj\Debug\Homework_3.csproj.CoreCompileInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\obj\Debug\Homework_3.exe
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\2_Homework\Homework_3\Homework_3\obj\Debug\Homework_3.pdb

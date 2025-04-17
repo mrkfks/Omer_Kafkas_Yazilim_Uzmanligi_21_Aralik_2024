@@ -1,0 +1,7 @@
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\10_Day\10_Day\obj\Debug\10_Day.csproj.AssemblyReference.cache
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\10_Day\10_Day\obj\Debug\10_Day.csproj.CoreCompileInputs.cache
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\10_Day\10_Day\bin\Debug\10_Day.exe.config
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\10_Day\10_Day\bin\Debug\10_Day.exe
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\10_Day\10_Day\bin\Debug\10_Day.pdb
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\10_Day\10_Day\obj\Debug\10_Day.exe
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\10_Day\10_Day\obj\Debug\10_Day.pdb

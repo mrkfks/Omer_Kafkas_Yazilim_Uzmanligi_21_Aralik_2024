@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\13_day\\13_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|solutionrelative:13_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_day\\users\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|solutionrelative:13_day\\users\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_day\\users\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|solutionrelative:13_day\\users\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_day\\users\\moderator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|solutionrelative:13_day\\users\\moderator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_day\\users\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|solutionrelative:13_day\\users\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_day\\users\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F6CC8B4-56E8-40C6-9109-0576F6C6B0B1}|13_Day\\13_Day.csproj|solutionrelative:13_day\\users\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\users\\Customer.cs",
+              "RelativeDocumentMoniker": "13_Day\\users\\Customer.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\users\\Customer.cs",
+              "RelativeToolTip": "13_Day\\users\\Customer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T12:34:51.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Moderator.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\users\\Moderator.cs",
+              "RelativeDocumentMoniker": "13_Day\\users\\Moderator.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\users\\Moderator.cs",
+              "RelativeToolTip": "13_Day\\users\\Moderator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T11:42:37.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\users\\Admin.cs",
+              "RelativeDocumentMoniker": "13_Day\\users\\Admin.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\users\\Admin.cs",
+              "RelativeToolTip": "13_Day\\users\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:44:55.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\users\\Users.cs",
+              "RelativeDocumentMoniker": "13_Day\\users\\Users.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\users\\Users.cs",
+              "RelativeToolTip": "13_Day\\users\\Users.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:27:43.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\users\\Person.cs",
+              "RelativeDocumentMoniker": "13_Day\\users\\Person.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\users\\Person.cs",
+              "RelativeToolTip": "13_Day\\users\\Person.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:22:59.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\Program.cs",
+              "RelativeDocumentMoniker": "13_Day\\Program.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\13_Day\\13_Day\\Program.cs",
+              "RelativeToolTip": "13_Day\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T06:06:57.702Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

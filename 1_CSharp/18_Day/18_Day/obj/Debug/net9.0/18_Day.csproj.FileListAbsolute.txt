@@ -1,0 +1,15 @@
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\bin\Debug\net9.0\18_Day.exe
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\bin\Debug\net9.0\18_Day.deps.json
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\bin\Debug\net9.0\18_Day.runtimeconfig.json
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\bin\Debug\net9.0\18_Day.dll
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\bin\Debug\net9.0\18_Day.pdb
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\obj\Debug\net9.0\18_Day.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\obj\Debug\net9.0\18_Day.AssemblyInfoInputs.cache
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\obj\Debug\net9.0\18_Day.AssemblyInfo.cs
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\obj\Debug\net9.0\18_Day.csproj.CoreCompileInputs.cache
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\obj\Debug\net9.0\18_Day.sourcelink.json
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\obj\Debug\net9.0\18_Day.dll
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\obj\Debug\net9.0\refint\18_Day.dll
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\obj\Debug\net9.0\18_Day.pdb
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\obj\Debug\net9.0\18_Day.genruntimeconfig.cache
+C:\Users\Omer KAFKAS\Desktop\Kişisel\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\1_Topics\18_Day\18_Day\obj\Debug\net9.0\ref\18_Day.dll

@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\",
+  "Documents": [
+    {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+      "AbsoluteMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|d:\\\u00F6mer kafkas\\projects\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\5_day\\5_day\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|solutionrelative:5_day\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|solutionrelative:5_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_day\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|C:\\Users\\Omer KAFKAS\\Documents\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_day\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|solutionrelative:5_day\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|C:\\Users\\Omer KAFKAS\\Documents\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|solutionrelative:5_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|c:\\users\\omer kafkas\\documents\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\5_day\\5_day\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
+=======
+      "AbsoluteMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|C:\\Users\\Omer KAFKAS\\Documents\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_day\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|solutionrelative:5_day\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|C:\\Users\\Omer KAFKAS\\Documents\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|solutionrelative:5_day\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|c:\\users\\omer kafkas\\documents\\omer_kafkas_yazilim_uzmanligi_21_aralik_2024\\1_csharp\\1_topics\\5_day\\5_day\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
+      "RelativeMoniker": "D:0:0:{28A10DC9-16D5-497C-9F05-5CC57CDA4FA2}|5_Day\\5_Day.csproj|solutionrelative:5_day\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+          "SelectedChildIndex": 0,
+=======
+          "SelectedChildIndex": 2,
+>>>>>>> Stashed changes
+=======
+          "SelectedChildIndex": 2,
+>>>>>>> Stashed changes
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+<<<<<<< Updated upstream
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Action.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_Day\\Action.cs",
+              "RelativeDocumentMoniker": "5_Day\\Action.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_Day\\Action.cs",
+              "RelativeToolTip": "5_Day\\Action.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:41:48.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_Day\\Users.cs",
+              "RelativeDocumentMoniker": "5_Day\\Users.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_Day\\Users.cs",
+              "RelativeToolTip": "5_Day\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
+              "WhenOpened": "2025-01-06T10:40:50.342Z"
+=======
+              "WhenOpened": "2025-01-06T10:40:50.342Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
+            },
+            {
+              "$type": "Document",
+=======
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Action.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Documents\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_Day\\Action.cs",
+              "RelativeDocumentMoniker": "5_Day\\Action.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Documents\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_Day\\Action.cs",
+              "RelativeToolTip": "5_Day\\Action.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:41:48.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Omer KAFKAS\\Documents\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_Day\\Users.cs",
+              "RelativeDocumentMoniker": "5_Day\\Users.cs",
+              "ToolTip": "C:\\Users\\Omer KAFKAS\\Documents\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_Day\\Users.cs",
+              "RelativeToolTip": "5_Day\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:40:50.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+>>>>>>> Stashed changes
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_Day\\Program.cs",
+              "RelativeDocumentMoniker": "5_Day\\Program.cs",
+              "ToolTip": "D:\\\u00D6mer Kafkas\\Projects\\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\\1_CSharp\\1_Topics\\5_Day\\5_Day\\Program.cs",
+              "RelativeToolTip": "5_Day\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T09:51:56.801Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

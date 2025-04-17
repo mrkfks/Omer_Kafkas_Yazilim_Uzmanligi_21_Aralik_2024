@@ -1,0 +1,141 @@
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Days_19.exe
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Days_19.deps.json
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Days_19.runtimeconfig.json
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Days_19.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Days_19.pdb
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Data.SqlClient.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-arm64\native\sni.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-x64\native\sni.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-x86\native\sni.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.Messages.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.csproj.AssemblyReference.cache
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.AssemblyInfoInputs.cache
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.AssemblyInfo.cs
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.csproj.CoreCompileInputs.cache
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.csproj.Up2Date
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\refint\Days_19.dll
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.pdb
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.genruntimeconfig.cache
+C:\Users\mrkfks\OneDrive\Desktop\Days_19\Days_19\Days_19\obj\Debug\net9.0\ref\Days_19.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.csproj.AssemblyReference.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.AssemblyInfoInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.AssemblyInfo.cs
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.csproj.CoreCompileInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.sourcelink.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\refint\Days_19.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.pdb
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Days_19.exe
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Days_19.deps.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Days_19.runtimeconfig.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Days_19.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Days_19.pdb
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Azure.Core.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Azure.Identity.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.ClientModel.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Data.SqlClient.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\de\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\es\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\it\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-arm64\native\sni.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-x64\native\sni.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win-x86\native\sni.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.Messages.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Security.Cryptography.Pkcs.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.csproj.Up2Date
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\Days_19.genruntimeconfig.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\19_Day\Days_19\Days_19\Days_19\obj\Debug\net9.0\ref\Days_19.dll
