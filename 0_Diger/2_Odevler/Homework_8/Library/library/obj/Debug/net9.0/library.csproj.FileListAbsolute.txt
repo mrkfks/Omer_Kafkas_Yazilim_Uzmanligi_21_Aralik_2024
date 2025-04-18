@@ -1,0 +1,6 @@
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\0_Diger\2_Odevler\Homework_8\Library\library\obj\Debug\net9.0\library.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\0_Diger\2_Odevler\Homework_8\Library\library\obj\Debug\net9.0\library.AssemblyInfoInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\0_Diger\2_Odevler\Homework_8\Library\library\obj\Debug\net9.0\library.AssemblyInfo.cs
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\0_Diger\2_Odevler\Homework_8\Library\library\obj\Debug\net9.0\library.csproj.CoreCompileInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\0_Diger\2_Odevler\Homework_8\Library\library\obj\Debug\net9.0\library.sourcelink.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\0_Diger\2_Odevler\Homework_8\Library\library\obj\Debug\net9.0\library.csproj.AssemblyReference.cache
