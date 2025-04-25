@@ -1,20 +1,20 @@
-namespace Library.Models
+namespace library.Models
 {
     public struct Member
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string Email { get; set; }
-        public string Phone { get; set; }
+        public int MemberID { get; set; }
+        public string MemberName { get; set; }
+        public string MemberSurname { get; set; }
+        public string MemberEmail { get; set; }
+        public string MemberPhone { get; set; }
 
-        public Member(int id, string name, string surname, string email, string phone)
+        public Member(int member_id, string member_name, string member_surname, string member_email, string member_phone)
         {
-            Id = id;
-            Name = name;
-            Surname = surname;
-            Email = email;
-            Phone = phone;
+            MemberID = member_id;
+            MemberName = member_name;
+            MemberSurname = member_surname;
+            MemberEmail = member_email;
+            MemberPhone = member_phone;
         }
     }
 }

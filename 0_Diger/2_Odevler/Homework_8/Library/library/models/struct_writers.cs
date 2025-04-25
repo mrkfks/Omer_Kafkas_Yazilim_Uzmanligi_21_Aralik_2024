@@ -1,16 +1,16 @@
-namespace Library.Models
+namespace library.Models
 {
     public struct Writer
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
+        public int WritersID { get; set; }
+        public string WritersName { get; set; }
+        public string WritersSurname { get; set; }
 
-        public Writer(string name, string surname)
+        public Writer(int writers_id, string writers_name, string writers_surname)
         {
-            Id = 0; 
-            Name = name;
-            Surname = surname;
+            WritersID = writers_id;
+            WritersName = writers_name;
+            WritersSurname = writers_surname;
         }
     }
 }

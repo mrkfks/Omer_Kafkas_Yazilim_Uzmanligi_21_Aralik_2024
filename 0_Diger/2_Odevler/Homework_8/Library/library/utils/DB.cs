@@ -1,35 +1,33 @@
 using Microsoft.Data.SqlClient;
 using System.Data;
 
-namespace Library.utils
+namespace library.utils
 {
     public class DB
     {
-        static string _connectionString = "Server=.;Database=contacts;Integrated Security=True;TrustServerCertificate=True;";
-        private SqlConnection _connection = new SqlConnection(_connectionString);
+        private static readonly string _connectionString = "Server=.;Database=contacts;Integrated Security=True;TrustServerCertificate=True;";
+        SqlConnection _connection = new SqlConnection(_connectionString);
 
         public SqlConnection GetConnection()
         {
+            SqlConnection connection = new SqlConnection(_connectionString);
             try
             {
-                if (_connection.State == ConnectionState.Closed)
-                {
-                    _connection.Open();
-                    Console.WriteLine("Connection Opened Successfully.");
-                }
+                connection.Open();
+                Console.WriteLine("Connection Opened Successfully.");
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Error: " + ex.Message);
             }
-            return _connection;
+            return connection;
         }
 
         public void CloseConnection()
         {
             try
             {
-                if (_connection.State == ConnectionState.Open)
+                if (_connection.State == System.Data.ConnectionState.Open)
                 {
                     _connection.Close();
                     Console.WriteLine("Connection Closed Successfully.");
