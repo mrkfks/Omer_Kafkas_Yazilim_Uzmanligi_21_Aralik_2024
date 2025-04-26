@@ -5,7 +5,7 @@ namespace library.utils
 {
     public class DB
     {
-        private static readonly string _connectionString = "Server=.;Database=contacts;Integrated Security=True;TrustServerCertificate=True;";
+        private static readonly string _connectionString = "Server=.;Database=library;Integrated Security=True;TrustServerCertificate=True;";
         SqlConnection _connection = new SqlConnection(_connectionString);
 
         public SqlConnection GetConnection()

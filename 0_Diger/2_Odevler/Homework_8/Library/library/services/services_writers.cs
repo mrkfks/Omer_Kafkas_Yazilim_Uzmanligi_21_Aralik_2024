@@ -21,17 +21,16 @@ namespace library.services
             int result = 0;
             try
             {
-                string query = "INSERT INTO writers writers_id, writers_name, writers_surname VALUES (@writers_id, @writers_name, @writers_surname); SELECT SCOPE IDENTITY;";
+                string query = "INSERT INTO writers (writers_name, writers_surname) VALUES (@writersname, @writerssurname); ";
                 SqlCommand command = new SqlCommand(query, _dB.GetConnection());
-                command.Parameters.AddWithValue("@writers_id", writer.WritersID);
-                command.Parameters.AddWithValue("@writers_name", writer.WritersName);
-                command.Parameters.AddWithValue("@writers_surname", writer.WritersSurname);
+                command.Parameters.AddWithValue("@writersname", writer.WritersName);
+                command.Parameters.AddWithValue("@writerssurname", writer.WritersSurname);
 
                 result = command.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error: " + ex.Message);
+                Console.WriteLine("Error: " + ex);
             }
             finally
             {
@@ -100,7 +99,6 @@ namespace library.services
                 while (reader.Read())
                 {
                     Writer writer = new Writer();
-                    /*writer.WritersID = Convert.ToInt32(reader["writers_id"]);*/
                     writer.WritersName = reader["writers_name"]?.ToString() ?? string.Empty;
                     writer.WritersSurname = reader["writers_surname"]?.ToString()?? string.Empty;
                     writers.Add(writer);                   

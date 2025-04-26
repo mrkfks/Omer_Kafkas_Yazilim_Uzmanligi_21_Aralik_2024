@@ -22,10 +22,9 @@ namespace library.services
             int result = 0;
             try
             {
-                string query = "INSERT INTO books books_id, writers_id,title, publication_year, ISBN VALUES (@books_id, @writers_id, @title, @publication_year, @ISBN); SELECT SCOPE IDENTITY;";
+                string query = "INSERT INTO books writers_id,title, publication_year, ISBN VALUES (@writers_id, @title, @publication_year, @ISBN); SELECT SCOPE IDENTITY;";
                 SqlCommand command = new SqlCommand(query, _dB.GetConnection());
                 
-                command.Parameters.AddWithValue("@books_id", book.Books_ID);
                 command.Parameters.AddWithValue("@writers_id", book.Writers_ID);
                 command.Parameters.AddWithValue("@title", book.Title);
                 command.Parameters.AddWithValue("@publication_year", book.Publication_Year);

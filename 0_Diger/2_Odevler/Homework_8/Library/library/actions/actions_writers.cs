@@ -8,17 +8,14 @@ namespace Library.libraryActions
         services_writers _servicesWriters = new services_writers();
 
         public void WriterAdd()
-        {
-            Console.WriteLine("Enter Writer ID:");
-            int writerId = Convert.ToInt32(Console.ReadLine());
-
+        { 
             Console.WriteLine("Enter Writer Name:");
             string name = Console.ReadLine() ?? string.Empty;
 
             Console.WriteLine("Enter Writer Surname:");
             string surname = Console.ReadLine() ?? string.Empty;
 
-            Writer writer = new Writer (writerId, name, surname);
+            Writer writer = new Writer (0, name, surname);
 
             int result = _servicesWriters.AddWriter(writer);
 

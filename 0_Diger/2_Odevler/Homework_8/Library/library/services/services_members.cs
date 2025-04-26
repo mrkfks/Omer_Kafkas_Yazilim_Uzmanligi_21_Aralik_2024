@@ -21,9 +21,8 @@ namespace library.services
             int result = 0;
             try
             {
-                string query = "INSERT INTO members member_id, member_name, member_surname, member_email, member_phone VALUES ( @member_id, @member_name, @member_surname, @member_email, @member_phone); SELECT SCOPE IDENTITY;";
+                string query = "INSERT INTO members member_name, member_surname, member_email, member_phone VALUES ( @member_name, @member_surname, @member_email, @member_phone); SELECT SCOPE IDENTITY;";
                 SqlCommand command = new SqlCommand(query, _dB.GetConnection());
-                command.Parameters.AddWithValue("@member_id", member.MemberID);
                 command.Parameters.AddWithValue("@member_name", member.MemberName);
                 command.Parameters.AddWithValue("@member_surname", member.MemberSurname);
                 command.Parameters.AddWithValue("@member_email", member.MemberEmail);

@@ -20,9 +20,8 @@ namespace library.services
             int result = 0;
             try
             {
-                string query = "INSERT INTO borrows (borrows_id, books_id, member_id, borrows_date, return_date) VALUES (@borrows_id, @books_id, @member_id, @borrows_date, @return_date); SELECT SCOPE_IDENTITY();";
+                string query = "INSERT INTO borrows (books_id, member_id, borrows_date, return_date) VALUES (@books_id, @member_id, @borrows_date, @return_date); SELECT SCOPE_IDENTITY();";
                 SqlCommand command = new SqlCommand(query, _dB.GetConnection());
-                command.Parameters.AddWithValue("@borrows_id", borrow.BorrowsId);
                 command.Parameters.AddWithValue("@books_id", borrow.BookId);
                 command.Parameters.AddWithValue("@member_id", borrow.MemberId);
                 command.Parameters.AddWithValue("@borrows_date", borrow.BorrowDate);
