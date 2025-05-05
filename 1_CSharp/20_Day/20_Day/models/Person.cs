@@ -7,8 +7,10 @@ namespace _20_Day.Models
     {
         public Person()
         {
-            SaveDate = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            SaveDate = DateTime.Now;
+            IsActive = true;
         }
+        
         public ObjectId Id { get; set; }
 
         [BsonElement("personid", Order = 0)]
@@ -27,7 +29,7 @@ namespace _20_Day.Models
         public int Age { get; set; }
 
         [BsonElement("savedate", Order = 6)]
-        public string? SaveDate { get; set; }
+        public DateTime? SaveDate { get; set; }
 
         [BsonDefaultValue ("true")]
         [BsonElement("isactive", Order = 5)]
