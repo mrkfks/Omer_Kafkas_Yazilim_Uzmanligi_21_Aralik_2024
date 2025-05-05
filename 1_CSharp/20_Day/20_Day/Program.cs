@@ -10,18 +10,20 @@ namespace _20_Day
     {
         static void Main(string[] args)
         {
-            PersonService personService = new PersonService();
+            PersonService personService = new ();
+            Console.WriteLine($"MongoDB Person Service {ObjectId.GenerateNewId().ToString()}");
+            
             Person p1 = new()
             {
-                Id = ObjectId.GenerateNewId(),
+                PersonId = ObjectId.GenerateNewId().ToString(),
                 Name = "Ali",
-                Surname = "Desidero",
-                Email = "alibey@hulkmail.com",
-                Age = 30,
-                IsActive = true,
+                Surname = "Bil",
+                Email = "ali@mail.com",
+                Age = 25,
                 Color = "Red"
             };
             int p1SAve = personService.AddPerson(p1);
+            Console.WriteLine($"Save Status: {p1SAve}");
             if (p1SAve == 1)
             {
                 Console.WriteLine("Person added successfully.");
@@ -30,6 +32,15 @@ namespace _20_Day
             {
                 Console.WriteLine("Failed to add person.");
             }
+
+            // Get all persons
+            List<Person> persons = personService.GetAllPersons();
+            foreach (var person in persons)
+            {
+                Console.WriteLine($"ID: {person.Id}, Name: {person.Name}, Surname: {person.Surname}, Age: {person.Age}");
+            }
+
+
         }
     }
 }

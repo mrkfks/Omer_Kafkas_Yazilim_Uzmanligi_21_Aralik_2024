@@ -7,13 +7,12 @@ namespace _20_Day.Models
     {
         public Person()
         {
-            SaveDate = DateTime.Now.ToString("o"); // ISO 8601 format
+            SaveDate = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
         }
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
+        public ObjectId Id { get; set; }
 
         [BsonElement("personid", Order = 0)]
-        public ObjectId Id { get; set; }
+        public string? PersonId { get; set; }
 
         [BsonElement("name", Order = 1)]
         public string? Name { get; set; }

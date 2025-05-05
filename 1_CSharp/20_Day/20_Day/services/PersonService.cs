@@ -27,5 +27,12 @@ public class PersonService
         return 0;
     }
     
-}
+    public List<Person> GetAllPersons()
+    {
+        List<Person> list = _personCollection.Find(_=>true).ToList();
+        return list;
+
+    }
+    
+    }
 
