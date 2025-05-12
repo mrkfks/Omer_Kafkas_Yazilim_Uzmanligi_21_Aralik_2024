@@ -72,6 +72,7 @@ namespace _21_Day.Utils
                     list.Add(Path.GetFileName(file));
                 }
             }
+            list.Sort();
             return list;
         }
         

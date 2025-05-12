@@ -25,6 +25,16 @@ namespace Days_21
                 Console.WriteLine(item);
             }
             Console.WriteLine("Lütfen Okumak İstediğiniz dosyanın adını giriniz");
+            int fileIndex = Convert.ToInt32(Console.ReadLine());
+            string fullfile = filesList[fileIndex - 1];
+            string plainFileName = fullfile.Substring(0, fullfile.Length - 4);
+
+            fileControl = new FileControl(plainFileName);
+            List<string> fileContent = fileControl.ReadFile();
+            foreach (var item in fileContent)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
