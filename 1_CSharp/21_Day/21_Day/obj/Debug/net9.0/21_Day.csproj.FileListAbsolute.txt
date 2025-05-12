@@ -1,0 +1,15 @@
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\bin\Debug\net9.0\21_Day.exe
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\bin\Debug\net9.0\21_Day.deps.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\bin\Debug\net9.0\21_Day.runtimeconfig.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\bin\Debug\net9.0\21_Day.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\bin\Debug\net9.0\21_Day.pdb
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\obj\Debug\net9.0\21_Day.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\obj\Debug\net9.0\21_Day.AssemblyInfoInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\obj\Debug\net9.0\21_Day.AssemblyInfo.cs
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\obj\Debug\net9.0\21_Day.csproj.CoreCompileInputs.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\obj\Debug\net9.0\21_Day.sourcelink.json
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\obj\Debug\net9.0\21_Day.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\obj\Debug\net9.0\refint\21_Day.dll
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\obj\Debug\net9.0\21_Day.pdb
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\obj\Debug\net9.0\21_Day.genruntimeconfig.cache
+D:\Ömer Kafkas\Projects\Omer_Kafkas_Yazilim_Uzmanligi_21_Aralik_2024\1_CSharp\21_Day\21_Day\obj\Debug\net9.0\ref\21_Day.dll

@@ -1,0 +1,13 @@
+Book
+Kitap Ekle, Kitap Listele Kitap Sil
+
+member
+Üye Ekle Üye Listele Üe Sİl
+
+Writes
+
+Yazar Ekle Yazar Listele Yazar Sil
+
+borow
+
+Ödünç ver
