@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("library")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("MongoDB_Urun_Katalog_Uygulaması")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+645736bd18753bc62bc1e134d7fea5e736e75afe")]
-[assembly: System.Reflection.AssemblyProductAttribute("library")]
-[assembly: System.Reflection.AssemblyTitleAttribute("library")]
+[assembly: System.Reflection.AssemblyProductAttribute("MongoDB_Urun_Katalog_Uygulaması")]
+[assembly: System.Reflection.AssemblyTitleAttribute("MongoDB_Urun_Katalog_Uygulaması")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
