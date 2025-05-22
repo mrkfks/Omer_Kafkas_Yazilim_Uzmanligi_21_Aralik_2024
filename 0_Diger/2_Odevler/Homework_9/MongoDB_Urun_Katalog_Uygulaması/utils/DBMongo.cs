@@ -6,7 +6,7 @@ namespace MongoDB_Urun_Katalog_Uygulaması.Utils
     {
         private readonly string connectionString = "mongodb://localhost:27017";
         private readonly string databaseName = "urun_katalog";
-        private readonly IMongoDatabase _database;
+        public readonly IMongoDatabase _database;
 
         public DBMongo()
         {
