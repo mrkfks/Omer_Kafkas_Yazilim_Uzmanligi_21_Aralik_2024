@@ -20,6 +20,17 @@
 
   <body>
     <div class="container">
+      <div class="row">
+        <div id="box" class="col bg-secondary">1</div>
+        <div id="box" class="col bg-secondary">2</div>
+        <div id="box" class="col bg-secondary">3</div>
+        <div id="box" class="col bg-secondary">4</div>
+        <div id="box" class="col bg-secondary">5</div>
+        <div id="box" class="col bg-secondary">6</div>
+      </div>
+    </div>
+    <br>
+    <div class="container">
       <div class ="row">
         <div class="col-sm-3 bg-primary">1</div>
         <div class="col-sm-3 bg-danger">2</div>
@@ -31,15 +42,15 @@
       <div class="row">
         <div class="col-sm-4"></div>
         <div class="col-sm-4">
-          <form>
+          <form id="loginForm">
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label"
                 >Email address</label
               >
-              <input
+              <input required
                 type="email"
                 class="form-control"
-                id="exampleInputEmail1"
+                id="email"
                 aria-describedby="emailHelp"
               />
               <div id="emailHelp" class="form-text">
@@ -53,14 +64,14 @@
               <input
                 type="password"
                 class="form-control"
-                id="exampleInputPassword1"
+                id="password"
               />
             </div>
             <div class="mb-3 form-check">
               <input
                 type="checkbox"
                 class="form-check-input"
-                id="exampleCheck1"
+                id="remember"
               />
               <label class="form-check-label" for="exampleCheck1"
                 >Check me out</label
@@ -68,6 +79,23 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
             <button id="submit" type="button"> Merhaba</button>
+            <div>
+              <div class="mb-3">
+                <label for="city" class="form-label">,</label>
+                <select
+                  class="form-select form-select-lg"
+                  name="Şehir"
+                  id="city"
+                  required
+                >
+                  <option selected>Select one</option>
+                  <option value="newdelhi">New Delhi</option>
+                  <option value="istanbul">Istanbul</option>
+                  <option value="jakarta">Jakarta</option>
+                </select>
+              </div>
+              
+            </div>
           </form>
         </div>
         <div class="col-sm-4"></div>
