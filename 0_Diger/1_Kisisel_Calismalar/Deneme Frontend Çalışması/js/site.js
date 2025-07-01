@@ -30,7 +30,14 @@ $(document).ready(function() {
   });
 
   $('#email').keyup(function (e) { 
-    console.log('keyup call')
+    //console.log(e.target.val())
+    //console.log(e.originalEvent.key)
+    if (e.originalEvent.key == 'Enter') {
+      console.log('Entere Tıkladın')
+    }
+
+    const email = $(this).val()
+    //console.log(email)
   });
 
 }) 
