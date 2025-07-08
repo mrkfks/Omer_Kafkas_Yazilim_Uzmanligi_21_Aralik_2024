@@ -1,2 +1,52 @@
 <app-bar></app-bar>
-<p>register works!</p>
+<div class="row">
+
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <h2>User Register</h2>
+
+        <form (submit)="userRegister()">
+
+            <div class="mb-3">
+                <label for="email">Email Adress</label>
+                <input type="email" class="form-control" id="email"/>
+            </div>
+            <div class="mb-3">
+                <label for="userName">User Name</label>
+                <input type="text" class="form-control" id="userName"/>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+
+                <div class="d-flex">
+                    <input type={{passType}} class="form-control" id="password"/>
+                    <a (click)="passwordLockUnLock()" class="btn btn-light">
+                        @if (passlock == false) {
+                            <i class="bi bi-unlock2"></i>
+                        }
+                        @else {
+                            <i class="bi bi-unlock"></i>
+                        }
+                    </a>
+                    
+                </div>
+                
+            </div>
+            <div class="mb-3">
+                <label for="passwordAgain">Password Again</label>
+                <input type={{passType}} class="form-control" id="password"/>
+            </div>
+
+
+            <button type="submit">Send</button>
+
+            
+        </form>
+    
+    </div>
+    <div class="col-sm-4"></div>
+    
+    
+    
+
+</div>

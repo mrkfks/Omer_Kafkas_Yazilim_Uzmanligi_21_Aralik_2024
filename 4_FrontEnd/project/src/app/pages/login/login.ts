@@ -6,32 +6,28 @@ import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-login',
+  standalone: true,
   imports: [Bar, FormsModule, RouterModule],
   templateUrl: './login.html',
-  styleUrl: './login.css'
+  styleUrls: ['./login.css']
 })
 export class Login {
 placeHolderEmail = 'Lütfen Email Adresinizi Giriniz!'
 //user datas
 email = ''
 password = ''
+remember = false
 error = ''
 
 //fonksiyon
-userLogin(){
-  this.error = ''
-  const emailStatus = emailValid(this.email)
-  if (!emailStatus) {
-    this.error = 'Email format error'
-  }
-  else if (this.password == '') {
-    this.error = 'password Empty!'
-  }
-  else {
-    console.log("Data:", this.email, this.password)
-  }
-  
-}
 
-
+userLogin() {
+  if (!this.password) {
+    this.error = 'password Empty!';
+  } else {
+    this.error = '';
+    console.log("Data:", this.email, this.password);
+    console.log("Data:", this.email, this.password, this.remember);
+  }
+  }
 }
