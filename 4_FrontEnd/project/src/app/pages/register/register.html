@@ -1,52 +1,85 @@
 <app-bar></app-bar>
 <div class="row">
-
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4">
-        <h2>User Register</h2>
-
-        <form (submit)="userRegister()">
-
-            <div class="mb-3">
-                <label for="email">Email Adress</label>
-                <input type="email" class="form-control" id="email"/>
-            </div>
-            <div class="mb-3">
-                <label for="userName">User Name</label>
-                <input type="text" class="form-control" id="userName"/>
-            </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
-
-                <div class="d-flex">
-                    <input type={{passType}} class="form-control" id="password"/>
-                    <a (click)="passwordLockUnLock()" class="btn btn-light">
-                        @if (passlock == false) {
-                            <i class="bi bi-unlock2"></i>
-                        }
-                        @else {
-                            <i class="bi bi-unlock"></i>
-                        }
-                    </a>
-                    
-                </div>
-                
-            </div>
-            <div class="mb-3">
-                <label for="passwordAgain">Password Again</label>
-                <input type={{passType}} class="form-control" id="password"/>
-            </div>
-
-
-            <button type="submit">Send</button>
-
-            
-        </form>
-    
+  <div class="col-sm-4"></div>
+  <div class="col-sm-4">
+    <h2 class="text-center">User Register</h2>
+    @if (error !== ''){
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Error</strong> {{error}}
+      fields below.
+      <button (click)="error = '' "
+        type="button"
+        class="btn-close"
+        aria-label="Close"
+      ></button>
     </div>
-    <div class="col-sm-4"></div>
-    
-    
-    
+    }
 
+    <form (submit)="userRegister()">
+      <div class="mb-3">
+        <label for="userName">Name/Surname</label>
+        <input
+          [(ngModel)]="name"
+          name="name"
+          type="text"
+          class="form-control"
+          id="userName"
+        />
+      </div>
+
+      <div class="mb-3">
+        <label for="email">Email Address</label>
+        <input
+          [(ngModel)]="email"
+          name="email"
+          type="email"
+          class="form-control"
+          id="email"
+          required
+        />
+      </div>
+
+      <div class="mb-3">
+        <label
+          [(ngModel)]="password"
+          name="password"
+          for="password"
+          class="form-label"
+          >Password</label
+        >
+
+        <div class="d-flex">
+          <input type="{{ passType }}" class="form-control" id="password" />
+          <a (click)="passwordLockUnLock()" class="btn btn-light">
+            @if (passlock == false) {
+            <i class="bi bi-unlock2"></i>
+            } @else {
+            <i class="bi bi-unlock"></i>
+            }
+          </a>
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="passwordAgain">Password Again</label>
+        <input
+          [(ngModel)]="passwordAgain"
+          name="passwordAgain"
+          type="{{ passType }}"
+          class="form-control"
+          id="passwordAgain"
+        />
+      </div>
+
+      <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a (click)="formReset()" class="btn btn-danger">Reset</a>
+      </div>
+
+      <p class="text-center mt-3">Daha önce kayıt olmuşmuydunuz?</p>
+      <div class="d-flex justify-content-center">
+        <a [routerLink]="['/']" routerLinkActive="active">Login</a>
+      </div>
+    </form>
+  </div>
+  <div class="col-sm-4"></div>
 </div>
