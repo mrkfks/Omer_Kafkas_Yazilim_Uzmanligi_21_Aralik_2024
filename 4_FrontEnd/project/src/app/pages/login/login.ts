@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { Bar } from '../../components/bar/bar';
 import { FormsModule } from '@angular/forms';
 import { emailValid } from '../../utils/valids';
@@ -12,22 +12,27 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./login.css']
 })
 export class Login {
-placeHolderEmail = 'Lütfen Email Adresinizi Giriniz!'
-//user datas
-email = ''
-password = ''
-remember = false
-error = ''
+  @ViewChild("emailRef")
+  emailRef: ElementRef | undefined;
+  @ViewChild("passwordRef")
+  passwordRef: ElementRef | undefined;
 
-//fonksiyon
+  placeHolderEmail = 'Lütfen Email Adresinizi Giriniz!'
+  //user datas
+  email = ''
+  password = ''
+  remember = false
+  error = ''
 
-userLogin() {
-  if (!this.password) {
-    this.error = 'password Empty!';
-  } else {
-    this.error = '';
-    console.log("Data:", this.email, this.password);
-    console.log("Data:", this.email, this.password, this.remember);
-  }
+  //fonksiyon
+
+  userLogin() {
+    if (!this.password) {
+      this.error = 'password Empty!';
+    } else {
+      this.error = '';
+      console.log("Data:", this.email, this.password);
+      console.log("Data:", this.email, this.password, this.remember);
+    }
   }
 }

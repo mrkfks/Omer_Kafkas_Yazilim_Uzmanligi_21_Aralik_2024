@@ -18,7 +18,7 @@
     <form (submit)="userRegister()">
       <div class="mb-3">
         <label for="userName">Name/Surname</label>
-        <input
+        <input #nameRef
           [(ngModel)]="name"
           name="name"
           type="text"
@@ -29,7 +29,7 @@
 
       <div class="mb-3">
         <label for="email">Email Address</label>
-        <input
+        <input #emailRef
           [(ngModel)]="email"
           name="email"
           type="email"
@@ -49,7 +49,7 @@
         >
 
         <div class="d-flex">
-          <input type="{{ passType }}" class="form-control" id="password" />
+          <input #passwordRef type="{{ passType }}" class="form-control" id="password" />
           <a (click)="passwordLockUnLock()" class="btn btn-light">
             @if (passlock == false) {
             <i class="bi bi-unlock2"></i>
@@ -61,7 +61,7 @@
       </div>
       <div class="mb-3">
         <label for="passwordAgain">Password Again</label>
-        <input
+        <input #passwordAgainRef
           [(ngModel)]="passwordAgain"
           name="passwordAgain"
           type="{{ passType }}"
