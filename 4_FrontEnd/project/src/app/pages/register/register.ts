@@ -1,74 +1,96 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, ViewChild } from '@angular/core';
 import { Bar } from '../../components/bar/bar';
 import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { emailValid, nameSurnameValid } from '../../utils/valids';
+import { Api } from '../../services/api';
 
 @Component({
   selector: 'app-register',
-  imports: [Bar, FormsModule,RouterModule],
+  imports: [Bar, FormsModule, RouterModule],
   templateUrl: './register.html',
-  styleUrl: './register.css'
+  styleUrl: './register.css',
+  changeDetection: ChangeDetectionStrategy.Default
 })
 export class Register {
 
-  @ViewChild("nameRef")
-  nameRef : ElementRef | undefined
+  constructor(private router: Router, private api: Api, private cdr: ChangeDetectorRef){
+    console.log("Register Call")
+  }
 
   @ViewChild("nameRef")
-  emailRef : ElementRef | undefined
+  nameRef:ElementRef | undefined
+  @ViewChild("emailRef")
+  emailRef:ElementRef | undefined
+  @ViewChild("passwordRef")
+  passwordRef:ElementRef | undefined
+  @ViewChild("passwordAgainRef")
+  passwordAgainRef:ElementRef | undefined
 
-  @ViewChild("nameRef")
-  passwordRef : ElementRef | undefined
-
-  @ViewChild("nameRef")
-  passwordAgainRef : ElementRef | undefined
-
-  passlock: boolean = false;
+  passlock = false
   passType = "password"
-  error = '';
+  error = ''
+  success = ''
 
-  //register values
-  email = ''
+  // register values
   name = ''
+  email = ''
   password = ''
   passwordAgain = ''
 
-
-  //register fnc
-  userRegister(){
+  // register fnc
+  userRegister() {
     this.error = ''
+    this.success = ''
+
     const nameData = nameSurnameValid(this.name)
-    if(nameData === '') {
-      this.error = 'Name / Surname not valid'
+    if (nameData === '') {
+      this.error = 'Name / Surname not valid!'
       this.nameRef!.nativeElement.focus()
-    }else if(!emailValid(this.email)){
-      this.error = 'Email not valid'
+    }else if (!emailValid(this.email)) {
+      this.error = 'Email not vali!'
       this.emailRef!.nativeElement.focus()
-    }else if(this.password === ''){
+    }else if (this.password === '') {
       this.error = 'Password empty!'
       this.passwordRef!.nativeElement.focus()
-    }else if (this.password !== this.passwordAgain){
-      this.error ='Pasword and Password Again not equals!'
+    }else if (this.password !== this.passwordAgain) {
+      this.error = 'Password and Password Again not equals!'
       this.passwordAgainRef!.nativeElement.focus()
-    }else{
-      console.log("Form Send")
-      console.log (this.name, this.email, this.password)
+    }else {
+      this.name = nameData
+      // 1. javascript
+      //window.location.href = '/'
+      // 2. bir önceki ekrana dönüşü engelle
+      //window.location.replace('/')
+      // 3. Router ile geçiş - tavsiye
+      //this.router.navigate(['/'], {replaceUrl: true, queryParams: {id: 10}})
+      this.api.userRegister(this.name, this.email, this.password).subscribe({
+        next:(val) => {
+          this.success = 'Register User Success'
+          this.formReset()
+          this.cdr.detectChanges()
+          setTimeout(() => {
+            this.error = 'E-Mail All ready in use!'
+            this.cdr.detectChanges()
+          }, 2000)
+        }
+      })
     }
   }
 
+  // resetfnc
   formReset(){
     this.name = ''
     this.email = ''
     this.password = ''
-    this.passwordAgain =''
+    this.passwordAgain = ''
     this.error = ''
   }
 
-  //password text lock and unlock
-
-  passwordLockUnLock(){
+  // password text lock and unlock
+  passwordLockUnLock() {
     this.passlock = !this.passlock
-    this.passType = this.passlock == true ? 'text' : 'password'
+    this.passType = this.passlock === true ? 'text' : 'password'
   }
+
 }
