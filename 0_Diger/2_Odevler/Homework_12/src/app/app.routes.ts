@@ -5,6 +5,7 @@ import { Products } from './pages/products/products';
 
 export const routes: Routes = [
     {path: "", component: Login },
+    {path: "login", component:Login},
     {path: "register", component: Register},
     {path: "products", component: Products}
 ];
