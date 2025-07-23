@@ -1,57 +1,86 @@
 <div class="row">
   <div class="col-sm-4"></div>
   <div class="col-sm-4">
-    <form>
+    <h2>User Register</h2>
+    @if (success !== '') {
+    <div class="alert alert-success" role="alert">{{ success }}</div>
+    } 
+    @if (error !== '') {
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>Error</strong> {{ error }}
+      <button
+        (click)="error = ''"
+        type="button"
+        class="btn-close"
+        aria-label="Close"
+      ></button>
+    </div>
+    }
+    <form (submit)="userRegister()">
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <label for="email" class="form-label">Email address</label>
         <input
+          #emailRef
+          [(ngModel)]="email"
+          name="email"
           type="email"
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
         />
       </div>
-
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <label for="userName" class="form-label">Name/Surname</label>
         <input
-          type="email"
+          #nameRef
+          [(ngModel)]="name"
+          name="name"
+          type="text"
           class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
+          id="exampleInputName"
+          aria-describedby="nameHelp"
         />
       </div>
-
       <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Surname</label>
-        <input
-          type="email"
+        <label for="password" class="form-label">Password</label>
+        <div class="d-flex">
+          <input
+          #passwordRef
+          [(ngModel)]="password"
+          name="password"
+          type="{{passType}}"
           class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
+          id="password"
         />
+        <a (click)="passwordLockUnlock()" class="btn btn-light">
+          @if (passlock === false) {<i class="bi bi-lock"></i>}
+          @else {<i class="bi bi-lock"></i>}
+        </a>
+        </div>
       </div>
-
       <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input
-          type="password"
-          class="form-control"
-          id="exampleInputPassword1"
-        />
+        <label for="passwordAgain" class="form-label"
+          >Password Again</label
+        >
+        <div class="d-flex">
+          <input
+            #passwordAgainRef
+            [(ngModel)]="passwordAgain"
+            name="passwordAgain"
+            type="{{passType}}"
+            class="form-control"
+            id="passwordAgain"
+          />
+        </div>
       </div>
-
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password Again</label>
-        <input
-          type="password"
-          class="form-control"
-          id="exampleInputPassword1"
-        />
+      <div class="d-flex justify-content-between">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a (click)="formReset()" class="btn btn-primary">Reset</a>
       </div>
-
-      
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <p class="text-center mt-3">Daha önce kayıtlı mısınız?</p>
+      <div class="d-flex justify-content-center">
+        <a class="text-dark" [routerLink]="['/']" routerLinkActive="active">Login</a>
+      </div>
     </form>
   </div>
   <div class="col-sm-4"></div>
