@@ -12,6 +12,7 @@ import { emailValid } from '../../utils/valids';
   changeDetection: ChangeDetectionStrategy.Default
 })
 export class Login {
+
 email = ''
 
 password = ''
