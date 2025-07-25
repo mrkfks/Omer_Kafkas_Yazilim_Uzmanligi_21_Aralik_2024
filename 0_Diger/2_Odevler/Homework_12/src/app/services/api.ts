@@ -19,14 +19,6 @@ export class Api {
     return this.http.post<IUsers>(userUrl.login, sendObj)
   }
 
-  userRegister(name: string, email: string, password: string){
-    const sendObj = {
-      name: name,
-      email: email,
-      password: password
-    }
-    return this.http.post(userUrl.register, sendObj)
-  }
 
   allProducts(page: number, per_page: number) {
     const sendObj = {

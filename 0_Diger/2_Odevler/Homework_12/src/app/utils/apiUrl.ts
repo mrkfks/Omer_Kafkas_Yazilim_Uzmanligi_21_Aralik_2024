@@ -1,10 +1,7 @@
-import { register } from "module"
-
 const baseURL = "https://dummyjson.com"
 
 export const userUrl = {
-    login: `${baseURL}/users`,
-    register: `${baseURL}/users/add`
+    login: `${baseURL}/users`
 }
 
 export const productUrl = {
