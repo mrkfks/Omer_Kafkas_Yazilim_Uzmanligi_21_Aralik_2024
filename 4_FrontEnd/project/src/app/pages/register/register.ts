@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, ViewChild, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { Bar } from '../../components/bar/bar';
 import { FormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
@@ -42,7 +42,6 @@ export class Register {
   userRegister() {
     this.error = ''
     this.success = ''
-
     const nameData = nameSurnameValid(this.name)
     if (nameData === '') {
       this.error = 'Name / Surname not valid!'
@@ -52,6 +51,9 @@ export class Register {
       this.emailRef!.nativeElement.focus()
     }else if (this.password === '') {
       this.error = 'Password empty!'
+      this.passwordRef!.nativeElement.focus()
+    }else if (this.password.length < 8) {
+      this.error = 'Password count min 8'
       this.passwordRef!.nativeElement.focus()
     }else if (this.password !== this.passwordAgain) {
       this.error = 'Password and Password Again not equals!'
@@ -64,15 +66,19 @@ export class Register {
       //window.location.replace('/')
       // 3. Router ile geçiş - tavsiye
       //this.router.navigate(['/'], {replaceUrl: true, queryParams: {id: 10}})
+      //this.router.navigate(['/'], {replaceUrl: true})
       this.api.userRegister(this.name, this.email, this.password).subscribe({
-        next:(val) => {
+        next: (val) => {
           this.success = 'Register User Success'
           this.formReset()
           this.cdr.detectChanges()
           setTimeout(() => {
-            this.error = 'E-Mail All ready in use!'
-            this.cdr.detectChanges()
-          }, 2000)
+            this.router.navigate(['/'], {replaceUrl: true})
+          }, 3000);
+        },
+        error: (err) => {
+          this.error = 'E-Mail All ready in use!'
+          this.cdr.detectChanges()
         }
       })
     }

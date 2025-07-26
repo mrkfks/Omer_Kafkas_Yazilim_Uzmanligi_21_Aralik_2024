@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, ViewChild } from '@angular/core';
+import { Component, ElementRef, ViewChild, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { Bar } from '../../components/bar/bar';
 import { FormsModule } from '@angular/forms';
 import { emailValid } from '../../utils/valids';
@@ -51,6 +51,7 @@ export class Login {
           this.cdr.detectChanges()
         }
       })
+
       
     }
   }

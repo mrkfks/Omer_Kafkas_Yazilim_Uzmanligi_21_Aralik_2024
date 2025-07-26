@@ -1,4 +1,4 @@
-export interface IUser{
+export interface IUser {
     meta: Meta;
     data: Data;
 }
