@@ -9,11 +9,18 @@ import { userUrl } from '../utils/apiUrl';
 export class Api {
   constructor (private http: HttpClient){}
 
+  /**
+    const loginPayload = {
+      username: email,
+      password: password
+    }
+    return this.http.post<IUsers>(userUrl.login, loginPayload)
+   */
   userLogin(email: string, password: string){
     const sendObj = {
       username: email,
       password: password
     }
-    return this.http.post<IUsers>(userUrl.login, sendObj)
+    return this.http.get<IUsers>(userUrl.login)
   }
 }

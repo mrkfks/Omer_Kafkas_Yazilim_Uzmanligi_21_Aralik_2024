@@ -1,20 +1,27 @@
-import { ChangeDetectorRef, Component, ElementRef, ViewChild } from '@angular/core';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, ViewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { Router } from 'express';
+import { Router } from '@angular/router';
 import { Api } from '../../services/api';
 
 @Component({
   selector: 'app-login',
   imports: [RouterModule, FormsModule],
   templateUrl: './login.html',
-  styleUrls: ['./login.css']
+  styleUrls: ['./login.css'],
+  changeDetection: ChangeDetectionStrategy.Default
 })
 export class Login {
+  constructor(
+    private router:Router, 
+    private api: Api,
+    private cdr: ChangeDetectorRef)
+    {}
+
 
   email = ''
   password = ''
-  remember = ''
+  remember = false
   error = ''
 
   @ViewChild("emailRef")
@@ -22,14 +29,7 @@ export class Login {
 
   @ViewChild("passwordRef")
   passwordRef: ElementRef | undefined
-  api: any;
-
-  constructor(
-    private router:Router, 
-    private Api: Api,
-    private cdr: ChangeDetectorRef)
-    {}
-
+  
   userLogin(){
     this.api.userLogin(this.email,this.password).subscribe({
       next: (val : any) => {
