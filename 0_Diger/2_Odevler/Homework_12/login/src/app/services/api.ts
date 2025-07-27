@@ -11,7 +11,7 @@ export class Api {
 
   userLogin(email: string, password: string){
     const sendObj = {
-      email: email,
+      username: email,
       password: password
     }
     return this.http.post<IUsers>(userUrl.login, sendObj)
