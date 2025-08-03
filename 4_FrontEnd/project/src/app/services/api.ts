@@ -28,6 +28,24 @@ export class Api {
     return this.http.post(userUrl.register, sendObj)
   }
 
+  userProfile() {
+    const jwt = localStorage.getItem('token') ?? '';
+    const headers = { 'Authorization': `Bearer ${jwt}` };
+    return this.http.get<IUser>(userUrl.profile, { headers });
+  }
+
+  userProfileSync() {
+    const jwt = localStorage.getItem('token') ?? '';
+    const headers = { 'Authorization': `Bearer ${jwt}` };
+    return this.http.get<IUser>(userUrl.profile, { headers }).pipe()
+  }
+
+  userLogout() {
+    const jwt = localStorage.getItem('token') ?? '';
+    const headers = { 'Authorization': `Bearer ${jwt}` };
+    return this.http.post(userUrl.logout, {}, {headers: headers});
+  }
+
   allProducts(page: number, per_page: number) {
     const sendObj = {
       page: page,
@@ -37,7 +55,6 @@ export class Api {
   }
 
 
-  // path variable -> https://jsonbulut.com/api/products/1
   productById(id: number) {
     const url = `${productUrl.products}/${id}`
     return this.http.get<ISingleProduct>(url)
