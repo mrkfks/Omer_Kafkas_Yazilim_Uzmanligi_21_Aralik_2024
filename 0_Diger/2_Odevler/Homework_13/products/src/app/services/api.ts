@@ -11,10 +11,10 @@ export class Api {
 
 constructor(private http:HttpClient) {}
 
-  getProducts(limit: number, skip: number) {
+  getProducts(title: number, price: number) {
     const sendObj = {
-      limit:limit,
-      skip:skip
+      title:title,
+      price:price
     }
    return this.http.get<IProducts>(productsUrl.products, {params:sendObj})
   }

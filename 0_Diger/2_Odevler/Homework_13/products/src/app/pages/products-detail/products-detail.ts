@@ -1,4 +1,8 @@
-import { Component } from '@angular/core';
+import { ChangeDetectorRef, Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Api } from '../../services/api';
+import { Router } from 'express';
+import { Product } from '../../models/IProducts';
 
 @Component({
   selector: 'app-products-detail',
@@ -7,5 +11,12 @@ import { Component } from '@angular/core';
   styleUrl: './products-detail.css'
 })
 export class ProductsDetail {
+
+  product: Product | null = null
+  
+
+  constructor(private route: ActivatedRoute, private api: Api, private router: Router, private cdr: ChangeDetectorRef){
+    
+  }
 
 }
