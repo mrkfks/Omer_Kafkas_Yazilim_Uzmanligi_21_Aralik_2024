@@ -5,6 +5,7 @@ import { Product } from '../../models/IProducts';
 
 @Component({
   selector: 'app-products-item',
+  standalone: true,
   imports: [RouterModule],
   templateUrl: './products-item.html',
   styleUrl: './products-item.css'

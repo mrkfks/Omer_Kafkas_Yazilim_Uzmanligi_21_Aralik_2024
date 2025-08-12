@@ -5,18 +5,17 @@ import { Product } from '../../models/IProducts';
 
 @Component({
   selector: 'app-products-detail',
+  standalone: true,
   imports: [],
   templateUrl: './products-detail.html',
   styleUrls: ['./products-detail.css'],
-  changeDetection: ChangeDetectionStrategy.Default
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ProductsDetail {
   product: Product | null = null;
   globalprice = '';
   stars: any[] = [];
-  bigimage = ''
-
-
+  bigimage = '';
 
   constructor(
     private route: ActivatedRoute,
@@ -38,9 +37,17 @@ export class ProductsDetail {
               )
                 .toFixed(2)
                 .toString();
-                console.log('value', value)
+
+                this.countStars(value.rating);
+
+                if (value.images && value.images.length > 0) {
+                  this.bigimage = value.images[0];
             }
-          },
+
+            console.log('value', value);
+            this.cdr.detectChanges(); 
+          }
+        },
           error: (err) => {
             alert('Not found product: ' + id);
             this.router.navigate(['/products']);

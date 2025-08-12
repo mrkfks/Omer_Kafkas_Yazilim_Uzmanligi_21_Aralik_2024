@@ -6,6 +6,7 @@ import { Api } from '../../services/api';
 
 @Component({
   selector: 'app-products',
+  standalone: true,
   imports: [RouterModule, ProductsItem],
   templateUrl: './products.html',
   styleUrl: './products.css',

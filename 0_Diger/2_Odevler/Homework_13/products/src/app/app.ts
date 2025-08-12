@@ -4,6 +4,7 @@ import { Bar } from "./components/bar/bar";
 
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [RouterOutlet, Bar, RouterModule],
   templateUrl: './app.html',
   styleUrl: './app.css'
