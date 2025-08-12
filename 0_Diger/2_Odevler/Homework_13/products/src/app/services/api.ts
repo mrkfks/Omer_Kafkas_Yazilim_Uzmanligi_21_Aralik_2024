@@ -13,11 +13,12 @@ export class Api {
 constructor(private http:HttpClient) {}
 
   getProducts(limit: number, skip: number): Observable<IProducts> {
-    const sendObj = {
-      limit: limit,
-      skip: skip
-    };
-    return this.http.get<IProducts>(productsUrl.products,{params: sendObj})
+    return this.http.get<IProducts>(productsUrl.products, {
+      params: {
+        limit: limit.toString(),
+        skip: skip.toString()
+      }
+    });
   }
 
   productsById(id: number): Observable<Product> {

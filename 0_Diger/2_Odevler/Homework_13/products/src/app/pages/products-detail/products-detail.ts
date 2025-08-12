@@ -16,12 +16,15 @@ export class ProductsDetail {
   stars: any[] = [];
   bigimage = ''
 
+
+
   constructor(
     private route: ActivatedRoute,
     private api: Api,
     private router: Router,
     private cdr: ChangeDetectorRef
   ) {
+    
     this.route.params.subscribe((params) => {
       const id = Number(params['id']);
       if (!Number.isNaN(id) && id > 0) {
@@ -35,6 +38,7 @@ export class ProductsDetail {
               )
                 .toFixed(2)
                 .toString();
+                console.log('value', value)
             }
           },
           error: (err) => {
@@ -44,7 +48,7 @@ export class ProductsDetail {
           },
         });
       } else {
-        alert('Not found product: ' + id);
+        alert('Not found product: ' + params[id]);
         this.router.navigate(['/products']);
         this.cdr.detectChanges();
       }
