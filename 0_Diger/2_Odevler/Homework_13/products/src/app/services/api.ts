@@ -1,7 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { IProducts } from '../models/IProducts';
+import { IProducts, Product } from '../models/IProducts';
 import { productsUrl } from '../utils/apiUrl';
+import { Observable, map } from 'rxjs';
 
 
 @Injectable({
@@ -11,17 +12,17 @@ export class Api {
 
 constructor(private http:HttpClient) {}
 
-  getProducts(title: number, price: number) {
+  getProducts(limit: number, skip: number): Observable<IProducts> {
     const sendObj = {
-      title:title,
-      price:price
-    }
-   return this.http.get<IProducts>(productsUrl.products, {params:sendObj})
+      limit: limit,
+      skip: skip
+    };
+    return this.http.get<IProducts>(productsUrl.products,{params: sendObj})
   }
 
-  productsById (id: number){
-    const url = `${productsUrl.products}/${id}`
-    return this.http.get<IProducts>(url)
+  productsById(id: number): Observable<Product> {
+    const url = `${productsUrl.products}/${id}`;
+    return this.http.get<Product>(url);
   }
   
 }

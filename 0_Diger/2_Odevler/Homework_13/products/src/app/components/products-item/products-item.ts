@@ -2,6 +2,7 @@ import { Component, Input } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { Product } from '../../models/IProducts';
 
+
 @Component({
   selector: 'app-products-item',
   imports: [RouterModule],
