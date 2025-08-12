@@ -18,5 +18,10 @@ constructor(private http:HttpClient) {}
     }
    return this.http.get<IProducts>(productsUrl.products, {params:sendObj})
   }
+
+  productsById (id: number){
+    const url = `${productsUrl.products}/${id}`
+    return this.http.get<IProducts>(url)
+  }
   
 }

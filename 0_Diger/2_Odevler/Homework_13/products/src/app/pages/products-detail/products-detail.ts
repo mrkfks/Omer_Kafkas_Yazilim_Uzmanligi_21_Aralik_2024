@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Api } from '../../services/api';
 import { Router } from 'express';
 import { Product } from '../../models/IProducts';
+import id from '@angular/common/locales/id';
 
 @Component({
   selector: 'app-products-detail',
@@ -16,7 +17,7 @@ export class ProductsDetail {
   
 
   constructor(private route: ActivatedRoute, private api: Api, private router: Router, private cdr: ChangeDetectorRef){
-    
+   
   }
 
 }
