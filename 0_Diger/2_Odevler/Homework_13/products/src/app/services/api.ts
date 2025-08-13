@@ -13,15 +13,15 @@ export class Api {
 constructor(private http:HttpClient) {}
 
   getProducts(limit: number, skip: number): Observable<IProducts> {
-    return this.http.get<IProducts>(productsUrl.products, {
-      params: {
-        limit: limit.toString(),
-        skip: skip.toString()
-      }
-    });
+    
+    const sendObj = {
+      limit: limit,
+      skip: skip
+    }
+    return this.http.get<IProducts>(productsUrl.products, {params: sendObj});
   }
 
-  productsById(id: number): Observable<Product> {
+  productsById(id: number){
     const url = `${productsUrl.products}/${id}`;
     return this.http.get<Product>(url);
   }

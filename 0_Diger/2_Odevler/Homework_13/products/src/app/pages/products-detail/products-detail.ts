@@ -22,13 +22,14 @@ export class ProductsDetail {
     private api: Api,
     private router: Router,
     private cdr: ChangeDetectorRef
-  ) {
-    
+  ) {}
+
+  ngOnInit(): void {
     this.route.params.subscribe((params) => {
       const id = Number(params['id']);
       if (!Number.isNaN(id) && id > 0) {
-        api.productsById(id).subscribe({
-          next: (value) => {
+        this.api.productsById(id).subscribe({
+          next: (value: Product) => {
             if (value) {
               this.product = value;
               this.globalprice = (
@@ -38,34 +39,34 @@ export class ProductsDetail {
                 .toFixed(2)
                 .toString();
 
-                this.countStars(value.rating);
+               this.countStars(value.rating)
 
-                if (value.images && value.images.length > 0) {
-                  this.bigimage = value.images[0];
+              if (value.images && value.images.length > 0) {
+                this.bigimage = value.images[0];
+              }
+
+              console.log('value', value);
+              this.cdr.detectChanges();
             }
-
-            console.log('value', value);
-            this.cdr.detectChanges(); 
-          }
-        },
-          error: (err) => {
+          },
+          error: (err: any) => {
             alert('Not found product: ' + id);
             this.router.navigate(['/products']);
             this.cdr.detectChanges();
           },
         });
       } else {
-        alert('Not found product: ' + params[id]);
+        alert('Not found product: ' + params['id']);
         this.router.navigate(['/products']);
         this.cdr.detectChanges();
       }
     });
   }
 
-  countStars(raiting: number) {
+  countStars(rating: number): void {
     const arr: number[] = [];
-    const tamPuan = Math.floor(raiting);
-    const yarimPuan = Math.ceil(raiting - tamPuan);
+    const tamPuan = Math.floor(rating);
+    const yarimPuan = Math.ceil(rating - tamPuan);
     const bosPuan = 5 - (tamPuan + yarimPuan);
 
     for (let i = 0; i < tamPuan; i++) {
@@ -80,7 +81,7 @@ export class ProductsDetail {
     this.stars = arr;
   }
 
-  changeImage(img : string){
-    this.bigimage = img
+  changeImage(img: string): void {
+    this.bigimage = img;
   }
 }

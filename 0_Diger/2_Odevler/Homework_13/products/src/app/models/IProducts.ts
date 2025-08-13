@@ -6,6 +6,7 @@ export interface IProducts {
 }
 
 export interface Product {
+    data: any;
     id:                   number;
     title:                string;
     description:          string;
