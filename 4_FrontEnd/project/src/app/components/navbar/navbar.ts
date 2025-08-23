@@ -3,12 +3,11 @@ import { Router, RouterModule } from '@angular/router';
 import { Util } from '../../utils/util';
 import { Api } from '../../services/api';
 import { FormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+import { SearchItemComponent } from "../search-item/search-item";
 
 @Component({
   selector: 'app-navbar',
-  standalone: true,
-  imports: [RouterModule, FormsModule, CommonModule],
+  imports: [RouterModule, FormsModule, SearchItemComponent],
   templateUrl: './navbar.html',
   styleUrl: './navbar.css',
   changeDetection: ChangeDetectionStrategy.Default

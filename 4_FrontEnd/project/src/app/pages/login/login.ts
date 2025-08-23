@@ -1,20 +1,35 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { Component, ElementRef, ViewChild, ChangeDetectionStrategy, ChangeDetectorRef, OnInit } from '@angular/core';
 import { Bar } from '../../components/bar/bar';
+import { FormsModule } from '@angular/forms';
 import { emailValid } from '../../utils/valids';
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { Api } from '../../services/api';
 
 @Component({
   selector: 'app-login',
-  standalone: true,
-  imports: [CommonModule, FormsModule, RouterModule, Bar],
+  imports: [Bar, FormsModule, RouterModule],
   templateUrl: './login.html',
-  styleUrl: './login.css'
+  styleUrl: './login.css',
+  changeDetection: ChangeDetectionStrategy.Default
 })
 export class Login {
+
+  @ViewChild("emailRef")
+  emailRef:ElementRef | undefined
+  @ViewChild("passwordRef")
+  passwordRef:ElementRef | undefined
+
+  ngAfterViewInit() {
+    if (this.emailRef !== undefined) {
+      this.emailRef.nativeElement.addEventListener("keyup", (ev:KeyboardEvent) => {
+        console.log("Email Call - 2", this.email)
+      })
+    }
+  }
+
+  constructor(private router:Router, private api: Api, private cdr: ChangeDetectorRef){
+  }
+
 
   // user models
   email = ''
@@ -22,7 +37,6 @@ export class Login {
   remember = false
   error = ''
 
-  constructor(private router: Router, private api: Api) {}
 
   // fonksion
   userLogin() {
@@ -30,9 +44,13 @@ export class Login {
     const emailStatus = emailValid(this.email)
     if (!emailStatus) {
       this.error = 'Email format error'
-    } else if (this.password === '') {
+      this.emailRef!.nativeElement.focus()
+    }else if ( this.password === '' ) {
       this.error = 'Password Empty!'
-    } else {
+      this.passwordRef!.nativeElement.focus()
+    }else {
+      // this.router.navigate(['/products'], {replaceUrl: true})
+      // next, error
       this.api.userLogin(this.email, this.password).subscribe({
         next: (val) => {
           localStorage.setItem("token", val.data.access_token)
@@ -40,12 +58,17 @@ export class Login {
         },
         error: (err) => {
           this.error = 'E-Mail or Password Fail'
+          this.cdr.detectChanges()
         }
       })
+
+      
     }
   }
 
   validEmail() {
     console.log("Email Call", this.email)
   }
+
+
 }

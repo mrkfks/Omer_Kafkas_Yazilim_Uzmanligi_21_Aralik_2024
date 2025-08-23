@@ -1,19 +1,15 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
-import { ProductItem } from '../../components/product-item/product-item';
+import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { Api } from '../../services/api';
-import { Product } from '../../models/IProducts';
-import { Pagination } from '../../models/IProducts';
-import { ChangeDetectorRef } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Pagination, Product } from '../../models/IProducts';
+import { ProductItem } from '../../components/product-item/product-item';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-products',
-  standalone: true,
-  imports: [CommonModule, RouterModule, ProductItem],
+  imports: [ProductItem, RouterModule],
   templateUrl: './products.html',
-  styleUrl: './products.css'
+  styleUrl: './products.css',
+  changeDetection: ChangeDetectionStrategy.Default
 })
 export class Products implements OnInit {
 

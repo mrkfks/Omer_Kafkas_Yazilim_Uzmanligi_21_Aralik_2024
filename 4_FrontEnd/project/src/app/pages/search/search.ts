@@ -1,11 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { SearchItemComponent } from "../../components/search-item/search-item";
 
 @Component({
   selector: 'app-search',
-  standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [SearchItemComponent],
   templateUrl: './search.html',
   styleUrl: './search.css'
 })

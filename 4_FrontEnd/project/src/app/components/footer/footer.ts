@@ -1,15 +1,14 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { FormsModule } from "@angular/forms";
 import { emailValid } from '../../utils/valids';
 import { Api } from '../../services/api';
 
 @Component({
   selector: 'app-footer',
-  standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [FormsModule],
   templateUrl: './footer.html',
-  styleUrl: './footer.css'
+  styleUrl: './footer.css',
+  changeDetection: ChangeDetectionStrategy.Default
 })
 export class Footer {
 
@@ -18,7 +17,7 @@ export class Footer {
   error = ''
   success = ''
 
-  constructor(private api: Api) {
+  constructor(private api: Api, private cdr: ChangeDetectorRef) {
     const date = new Date()
     this.currentYear = date.getFullYear()
   }
@@ -42,7 +41,7 @@ export class Footer {
           this.error = 'Api Problem, Try Again!'
         },
         complete: () => {
-          // this.cdr.detectChanges() // Removed as per new_code
+          this.cdr.detectChanges()
         }
       })
     }
@@ -55,14 +54,14 @@ export class Footer {
         setTimeout(() => {
           this.success = ''
           this.email = ''
-          // this.cdr.detectChanges() // Removed as per new_code
+          this.cdr.detectChanges()
         }, 3000);
       },
       error: (error) => {
         this.error = 'Api Problem, Try Again!'
       },
       complete: () => {
-        // this.cdr.detectChanges() // Removed as per new_code
+        this.cdr.detectChanges()
       }
     })
   }

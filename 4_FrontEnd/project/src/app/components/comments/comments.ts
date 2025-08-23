@@ -1,22 +1,21 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
 import { Api } from '../../services/api';
 import { Comment } from '../../models/IComments';
 ;
 
 @Component({
   selector: 'app-comments',
-  standalone: true,
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './comments.html',
-  styleUrl: './comments.css'
+  styleUrl: './comments.css',
+  changeDetection: ChangeDetectionStrategy.Default
 })
-export class Comments {
+export class Comments implements OnInit {
 
   commentArr:Comment[] = []
   loading = true
 
-  constructor( private api: Api ){
+  constructor( private api: Api, private cdr: ChangeDetectorRef ){
   }
 
 
@@ -25,6 +24,7 @@ export class Comments {
       next: (value) => {
         this.commentArr = value.data
         this.loading = false
+        this.cdr.detectChanges()
       },
       error: (error) => {
 
