@@ -99,6 +99,7 @@ export class Api {
   }
   SearchProducts(query: string, page:number, per_page: number){
     const sendObj = {
+      query:query,
       page: page,
       per_page: per_page
     }

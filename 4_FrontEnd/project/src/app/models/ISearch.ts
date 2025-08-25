@@ -1,9 +1,9 @@
 export interface ISearch {
     meta: Meta;
-    data: Datum[];
+    data: Search[];
 }
 
-export interface Datum {
+export interface Search {
     id:                   number;
     title:                string;
     description:          string;
@@ -43,11 +43,11 @@ export class Convert {
         return JSON.stringify(value);
     }
 
-    public static toDatum(json: string): Datum {
+    public static toDatum(json: string): Search {
         return JSON.parse(json);
     }
 
-    public static datumToJson(value: Datum): string {
+    public static datumToJson(value: Search): string {
         return JSON.stringify(value);
     }
 

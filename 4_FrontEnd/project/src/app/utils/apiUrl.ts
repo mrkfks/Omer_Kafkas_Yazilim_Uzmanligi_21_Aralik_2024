@@ -1,5 +1,3 @@
-import { Search } from "../pages/search/search"
-
 const baseURL = "https://jsonbulut.com/api/"
 
 // user
