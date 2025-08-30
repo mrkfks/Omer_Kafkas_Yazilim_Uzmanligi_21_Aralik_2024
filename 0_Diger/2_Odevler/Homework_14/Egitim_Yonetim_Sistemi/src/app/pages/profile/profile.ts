@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { BackgroundItem } from "../../components/background-item/background-item";
 
 @Component({
   selector: 'app-profile',
-  imports: [],
+  imports: [BackgroundItem],
   templateUrl: './profile.html',
   styleUrl: './profile.css'
 })

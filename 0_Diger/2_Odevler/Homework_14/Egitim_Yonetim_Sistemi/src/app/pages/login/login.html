@@ -1,23 +1,32 @@
-
-<div class="row">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4 d-flex justify-content-center align-items-center vh-100">
-        <form action="" method="post">
-        <label for="Ad:">Ad:</label>
-        <input type="text" id="Ad:" name="Ad">
-        <label for="Soyad:">Soyad:</label>
-        <input type="text" id="Soyad:" name="Soyad">
-    </form>
-    </div>
-    <div class="col-sm-4"></div>
-
-</div>
-
-
-<div class="">
-    
-</div>
-
-
-
 <app-background-item></app-background-item>
+<div class="login-wrapper">
+    <form [formGroup]="form" (ngSubmit)="submit()" class="login-card">
+        <h2 class="title">Giriş Yap</h2>
+
+        <div class="field">
+            <label for="email">Email</label>
+            <input id="email" type="email" formControlName="email" [class.invalid]="form.controls.email.touched && form.controls.email.invalid">
+            @if(form.controls.email.touched && form.controls.email.errors){
+                <div class="error">
+                    @if(form.controls.email.errors['required']) { Email zorunlu }
+                    @else if(form.controls.email.errors['email']) { Geçerli bir email girin }
+                </div>
+            }
+        </div>
+
+        <div class="field">
+            <label for="password">Şifre</label>
+            <input id="password" type="password" formControlName="password" [class.invalid]="form.controls.password.touched && form.controls.password.invalid">
+            @if(form.controls.password.touched && form.controls.password.errors){
+                <div class="error">
+                    @if(form.controls.password.errors['required']) { Şifre zorunlu }
+                    @else if(form.controls.password.errors['minlength']) { Minimum 6 karakter }
+                </div>
+            }
+        </div>
+
+        <button class="submit" type="submit" [disabled]="submitting || form.invalid">@if(submitting){ Giriş yapılıyor... } @else { Giriş Yap }</button>
+    </form>
+</div>
+
+

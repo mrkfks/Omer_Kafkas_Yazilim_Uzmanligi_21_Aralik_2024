@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
+
 
 @Component({
   selector: 'app-background-item',
   imports: [],
-  templateUrl: './background-item.html',
-  styleUrl: './background-item.css'
+  template: `<div class="background-bg"></div>`,
+  styleUrls: ['./background-item.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class BackgroundItem {
 
