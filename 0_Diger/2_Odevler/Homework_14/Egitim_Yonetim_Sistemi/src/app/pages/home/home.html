@@ -41,7 +41,9 @@
     </div>
   </div>
   <div class="d-flex justify-content-center mt-5 gap-5">
-    <a class="btn btn-primary" routerLink="/login">Giriş Yap</a>
-    <a class="btn btn-primary" routerLink="/register">Kayıt Ol</a>
+    <ng-container *ngIf="!auth.currentUser()">
+      <a class="btn btn-primary" routerLink="/login">Giriş Yap</a>
+      <a class="btn btn-primary" routerLink="/register">Kayıt Ol</a>
+    </ng-container>
   </div>
 </div>

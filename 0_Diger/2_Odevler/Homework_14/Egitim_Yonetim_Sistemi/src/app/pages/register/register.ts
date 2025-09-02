@@ -12,6 +12,7 @@ import { AuthService } from '../../services/auth.service';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class Register {
+photo: any;
 navigateToLogin() {
 throw new Error('Method not implemented.');
 }
@@ -25,7 +26,8 @@ throw new Error('Method not implemented.');
     }
   this.submitting = true;
     const { name, surname, email, password } = this.form.value;
-  this.auth.register({ name: name!, surname: surname!, email: email!, password: password! })
+    const profilePhoto = this.selectedPhoto || this.photoList[0] || '';
+  this.auth.register({ name: name!, surname: surname!, email: email!, password: password!, profilePhoto })
       .subscribe({
         next: user => {
           this.submitting = false;
@@ -58,5 +60,18 @@ throw new Error('Method not implemented.');
 
   get form() {
     return this.formSignal();
+  }
+    photoList = [
+    'assets/profile-photo/1.png',
+    'assets/profile-photo/2.png',
+    'assets/profile-photo/3.png',
+    'assets/profile-photo/4.png',
+    'assets/profile-photo/5.png',
+    'assets/profile-photo/6.png',
+  ];
+  selectedPhoto = '';
+
+    selectPhoto(photo: string) {
+    this.selectedPhoto = photo;
   }
 }

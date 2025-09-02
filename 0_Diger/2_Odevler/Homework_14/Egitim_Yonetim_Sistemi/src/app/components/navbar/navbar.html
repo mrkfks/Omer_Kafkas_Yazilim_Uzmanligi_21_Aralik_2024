@@ -31,8 +31,21 @@
       id="offcanvasDarkNavbar"
       aria-labelledby="offcanvasDarkNavbarLabel"
     >
-      <div class="offcanvas-header">
-
+      <div class="offcanvas-header d-flex align-items-center gap-3">
+        <ng-container *ngIf="auth.currentUser() as user">
+          <img
+            [src]="user.profilePhoto || 'assets/logo.png'"
+            alt="avatar"
+            width="48"
+            height="48"
+            style="border-radius: 50%; object-fit: cover"
+            class="me-2"
+          />
+          <div class="d-flex flex-column">
+            <div class="text-white fw-bold">{{ user.name }} {{ user.surname }}</div>
+            <button class="btn btn-sm btn-outline-light mt-1" (click)="logout()">Çıkış Yap</button>
+          </div>
+        </ng-container>
         <button
           type="button"
           class="btn-close btn-close-white"
@@ -45,7 +58,13 @@
           <ul class="navbar-nav justify-content-end pe-3">
             <li class="nav-item"></li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" routerLink="/" routerLinkActive="active">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                routerLink="/"
+                routerLinkActive="active"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" routerLink="/profile" routerLinkActive="active">Profile</a>

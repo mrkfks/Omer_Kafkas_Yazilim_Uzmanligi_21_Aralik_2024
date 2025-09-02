@@ -6,6 +6,7 @@
       "surname": "Kullanici",
       "email": "demo@example.com",
       "password": "123456"
+  ,"role":"student"
     },
     {
       "id": "f5ea",
@@ -13,6 +14,9 @@
       "surname": "Kafkas",
       "email": "omerkafkas55@gmail.com",
       "password": "123456"
+  ,"role":"instructor"
+  ,"profilePhoto": "assets/profile-photo/2.png",
+  "bio": "Frontend ve web teknolojileri eğitmeni. React ve modern JS konusunda uzman."
     },
     {
       "id": "126d",
@@ -20,6 +24,120 @@
       "surname": "Kafkas",
       "email": "mail@mail.com",
       "password": "123456789"
+  ,"role":"instructor"
+  ,"profilePhoto": "assets/profile-photo/4.png",
+  "bio": "Veritabanı tasarımı ve performans uzmanı. SQL ve veri modelleme eğitmeni."
+    },
+    {
+      "id": "19fe",
+      "name": "Ömer",
+      "surname": "Kafkas",
+      "email": "omerkafkas@gmail.com",
+      "password": "123456"
+  ,"role":"instructor"
+  ,"profilePhoto": "assets/profile-photo/1.png",
+  "bio": "Fullstack geliştirici ve eğitmen. Node.js ve Angular üzerine dersler verir."
+    },
+    {
+      "id": "26c5",
+      "name": "Ece",
+      "surname": "Kafkas",
+      "email": "ecekafkas01@gmail.com",
+      "password": "789456",
+      "profilePhoto": "assets/profile-photo/3.png"
+  ,"role":"student"
     }
+  ]
+  ,
+  "categories": [
+    { "id": "c1", "name": "Frontend" },
+    { "id": "c2", "name": "Backend" },
+    { "id": "c3", "name": "Siber Güvenlik" }
+  ],
+  "courses": [
+    {
+      "id": "course1",
+      "title": "Angular Temelleri",
+      "categoryId": "c1",
+  "instructorId": "19fe",
+  "instructorName": "Ömer Kafkas",
+  "instructorPhoto": "assets/profile-photo/1.png",
+      "description": "Angular ile modern web uygulamaları geliştirmeye giriş.",
+      "price": 149.99,
+      "durationHours": 20,
+      "level": "Başlangıç",
+      "image": "assets/frontend_egitimi.png"
+    },
+    {
+      "id": "course2",
+      "title": "React Gelişmiş",
+      "categoryId": "c1",
+  "instructorId": "f5ea",
+  "instructorName": "Ömer Kafkas",
+  "instructorPhoto": "assets/profile-photo/2.png",
+      "description": "Hooks, performans ve ileri React teknikleri.",
+      "price": 199.99,
+      "durationHours": 25,
+      "level": "Orta",
+      "image": "assets/frontend_egitimi.png"
+    },
+    {
+      "id": "course3",
+      "title": "Node.js ile Backend",
+      "categoryId": "c2",
+  "instructorId": "19fe",
+  "instructorName": "Ömer Kafkas",
+  "instructorPhoto": "assets/profile-photo/1.png",
+      "description": "REST API tasarımı, Express, veritabanı entegrasyonu.",
+      "price": 179.99,
+      "durationHours": 22,
+      "level": "Orta",
+      "image": "assets/backend_egitimi.png"
+    },
+    {
+      "id": "course4",
+      "title": "Veritabanı Tasarımı",
+      "categoryId": "c2",
+  "instructorId": "126d",
+  "instructorName": "Ömer Kafkas",
+  "instructorPhoto": "assets/profile-photo/4.png",
+      "description": "İlişkisel veritabanı modelleri, normalizasyon, performans.",
+      "price": 129.99,
+      "durationHours": 18,
+      "level": "Başlangıç",
+      "image": "assets/veritabanı_egitimi.png"
+    },
+    {
+      "id": "course5",
+      "title": "Temel Siber Güvenlik",
+      "categoryId": "c3",
+  "instructorId": "f5ea",
+  "instructorName": "Ömer Kafkas",
+  "instructorPhoto": "assets/profile-photo/2.png",
+      "description": "Siber güvenlik temelleri, ağ güvenliği ve temel test araçları.",
+      "price": 159.99,
+      "durationHours": 16,
+      "level": "Başlangıç",
+      "image": "assets/siber_guvenlik_egitimi.png"
+    },
+    {
+      "id": "course6",
+      "title": "Fullstack Proje Geliştirme",
+      "categoryId": "c2",
+  "instructorId": "19fe",
+  "instructorName": "Ömer Kafkas",
+  "instructorPhoto": "assets/profile-photo/1.png",
+      "description": "Frontend + Backend entegrasyonu ile gerçek dünya projesi.",
+      "price": 249.99,
+      "durationHours": 40,
+      "level": "İleri",
+      "image": "assets/backend_egitimi.png"
+    }
+  ],
+  "enrollments": [
+    { "id": "e1", "userId": "26c5", "courseId": "course1" },
+    { "id": "e2", "userId": "26c5", "courseId": "course3" },
+    { "id": "e3", "userId": "1", "courseId": "course2" },
+    { "id": "e4", "userId": "1", "courseId": "course5" }
   ]
 }

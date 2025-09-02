@@ -3,11 +3,13 @@ import { HttpClient } from '@angular/common/http';
 import { map, Observable } from 'rxjs';
 
 export interface UserDto {
-  id?: number;
+  id?: string | number;
   name: string;
   surname: string;
   email: string;
   password: string;
+  profilePhoto?: string;
+  role?: 'student' | 'instructor' | 'admin';
 }
 
 @Injectable({ providedIn: 'root' })
