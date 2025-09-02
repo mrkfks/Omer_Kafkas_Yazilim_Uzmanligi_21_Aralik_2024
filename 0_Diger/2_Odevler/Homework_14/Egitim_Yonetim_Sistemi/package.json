@@ -2,12 +2,13 @@
   "name": "egitim-yonetim-sistemi",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:Egitim_Yonetim_Sistemi": "node dist/Egitim_Yonetim_Sistemi/server/server.mjs"
+  "ng": "ng serve",
+  "json-server": "json-server --watch db.json --port 3000",
+  "start": "concurrently \"npm run ng\" \"npm run json-server\"",
+  "build": "ng build",
+  "watch": "ng build --watch --configuration development",
+  "test": "ng test",
+  "serve:ssr:Egitim_Yonetim_Sistemi": "node dist/Egitim_Yonetim_Sistemi/server/server.mjs"
   },
   "prettier": {
     "printWidth": 100,
@@ -37,6 +38,7 @@
     "tslib": "^2.3.0"
   },
   "devDependencies": {
+  "concurrently": "^8.2.2",
     "@angular/build": "^20.2.0",
     "@angular/cli": "^20.2.0",
     "@angular/compiler-cli": "^20.2.0",

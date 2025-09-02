@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
+import { BackgroundItem } from "../../components/background-item/background-item";
+
+
 
 @Component({
   selector: 'app-about-us',
-  imports: [],
+  imports: [BackgroundItem],
   templateUrl: './about-us.html',
-  styleUrl: './about-us.css'
+  styleUrls: ['./about-us.css']
 })
 export class AboutUs {
 

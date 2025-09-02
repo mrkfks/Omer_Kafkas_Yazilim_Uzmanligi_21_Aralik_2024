@@ -26,6 +26,8 @@
         </div>
 
         <button class="submit" type="submit" [disabled]="submitting || form.invalid">@if(submitting){ Giriş yapılıyor... } @else { Giriş Yap }</button>
+        <p class="text-center mt-3">Henüz kayıt olmadınız mı?</p>
+        <a class="login-btn text-center" (click)="navigateToLogin()">Kayıt ol</a>
     </form>
 </div>
 

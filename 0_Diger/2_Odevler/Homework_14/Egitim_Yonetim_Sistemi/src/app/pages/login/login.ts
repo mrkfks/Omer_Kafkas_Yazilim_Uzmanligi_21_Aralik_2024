@@ -2,6 +2,7 @@ import { Component, ChangeDetectionStrategy, inject } from '@angular/core';
 import { BackgroundItem } from '../../components/background-item/background-item';
 import { ReactiveFormsModule, FormBuilder, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { AuthService } from '../../services/auth.service';
 
 
 @Component({
@@ -12,7 +13,11 @@ import { CommonModule } from '@angular/common';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class Login {
+navigateToLogin() {
+throw new Error('Method not implemented.');
+}
   private fb = inject(FormBuilder);
+  private auth = inject(AuthService); // service injection context içinde
 
   readonly form = this.fb.group({
     email: ['', [Validators.required, Validators.email]],
@@ -26,10 +31,15 @@ export class Login {
       this.form.markAllAsTouched();
       return;
     }
-    this.submitting = true;
-    setTimeout(() => {
-      console.log('LOGIN DATA', this.form.value);
+  this.submitting = true;
+    const { email, password } = this.form.value;
+  this.auth.login(email!, password!).subscribe(user => {
       this.submitting = false;
-    }, 800);
+      if (!user) {
+        alert('Kullanıcı bulunamadı veya şifre hatalı');
+        return;
+      }
+      console.log('Giriş başarılı', user);
+    });
   }
 }

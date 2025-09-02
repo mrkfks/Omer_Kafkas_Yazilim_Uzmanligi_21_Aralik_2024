@@ -1,7 +1,8 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 import { BackgroundItem } from "../../components/background-item/background-item";
-import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-register',
@@ -11,14 +12,51 @@ import { CommonModule } from '@angular/common';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class Register {
-private fb = inject(FormBuilder)
+navigateToLogin() {
+throw new Error('Method not implemented.');
+}
+  submitting = false;
+  private auth = inject(AuthService);
 
-readonly form = this.fb.group({
-  name: ['', [Validators.required, Validators.minLength(1)]],
-  surname: ['', [Validators.required, Validators.minLength(1)]],
-  email: ['', [Validators.required, Validators.email]],
-  password: ['', [Validators.required]]
-  
-})
+  onSubmit() {
+    if (this.form.invalid) {
+      this.form.markAllAsTouched();
+      return;
+    }
+  this.submitting = true;
+    const { name, surname, email, password } = this.form.value;
+  this.auth.register({ name: name!, surname: surname!, email: email!, password: password! })
+      .subscribe({
+        next: user => {
+          this.submitting = false;
+          console.log('Kayıt başarılı', user);
+        },
+        error: err => {
+          this.submitting = false;
+          console.error(err);
+          alert('Kayıt başarısız');
+        }
+      });
+  }
+  private fb = inject(FormBuilder);
 
+  // Formu signal ile sarmala
+  readonly formSignal = signal(this.fb.group({
+    name: ['', Validators.required],
+    surname: ['', Validators.required],
+    email: ['', [Validators.required, Validators.email]],
+    password: ['', Validators.required],
+    passwordAgain: ['', Validators.required]
+  }, {
+    validators: (group) => {
+      const password = group.get('password')?.value;
+      const passwordAgain = group.get('passwordAgain')?.value;
+      return password === passwordAgain ? null : { passwordMismatch: true };
+    }
+  }));
+
+
+  get form() {
+    return this.formSignal();
+  }
 }
