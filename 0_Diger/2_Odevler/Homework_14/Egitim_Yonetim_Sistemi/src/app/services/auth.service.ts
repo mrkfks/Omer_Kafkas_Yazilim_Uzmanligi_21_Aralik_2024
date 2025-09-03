@@ -13,16 +13,30 @@ export interface UserDto {
 }
 
 @Injectable({ providedIn: 'root' })
+
 export class AuthService {
   private http = inject(HttpClient);
   private readonly api = 'http://localhost:3000';
 
-  // basit auth state
-  readonly currentUser = signal<UserDto | null>(null);
+  // localStorage destekli auth state
+  readonly currentUser = signal<UserDto | null>(this.loadUserFromStorage());
+
+  private loadUserFromStorage(): UserDto | null {
+    if (typeof window === 'undefined') return null;
+    const raw = localStorage.getItem('currentUser');
+    if (!raw) return null;
+    try {
+      return JSON.parse(raw);
+    } catch {
+      return null;
+    }
+  }
+
 
   register(user: Omit<UserDto, 'id'>): Observable<UserDto> {
     return this.http.post<UserDto>(`${this.api}/users`, user);
   }
+
 
   login(email: string, password: string): Observable<UserDto | null> {
     return this.http
@@ -31,6 +45,11 @@ export class AuthService {
         map(list => {
           const found = list.find(u => u.password === password);
           this.currentUser.set(found ?? null);
+          if (found) {
+            localStorage.setItem('currentUser', JSON.stringify(found));
+          } else {
+            localStorage.removeItem('currentUser');
+          }
           return found ?? null;
         })
       );
@@ -38,5 +57,6 @@ export class AuthService {
 
   logout() {
     this.currentUser.set(null);
+    localStorage.removeItem('currentUser');
   }
 }

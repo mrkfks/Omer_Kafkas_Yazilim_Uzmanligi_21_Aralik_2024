@@ -7,10 +7,10 @@ import { AboutUs } from './pages/about-us/about-us';
 import { Courses } from './pages/courses/courses';
 
 export const routes: Routes = [
-    {path: "", component: Home},
-    {path: "login", component: Login},
-    {path: "profile", component: Profile},
-    {path: "register", component: Register},
-    {path: "about-us", component: AboutUs},
-    {path: "courses", component: Courses}
+    { path: '', component: Home },
+    { path: 'login', component: Login },
+    { path: 'profile', component: Profile },
+    { path: 'register', component: Register },
+    { path: 'about-us', component: AboutUs },
+    { path: 'courses', component: Courses }
 ];

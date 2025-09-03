@@ -1,8 +1,8 @@
-import { Component, inject, OnInit } from '@angular/core';
-import { BackgroundItem } from "../../components/background-item/background-item";
+import { Component, inject, ChangeDetectionStrategy, OnInit, makeStateKey, TransferState } from '@angular/core';
+import { Api } from '../../api';
+import { CoursesItem } from '../../components/courses-item/courses-item';
+import { BackgroundItem } from '../../components/background-item/background-item';
 import { CommonModule } from '@angular/common';
-import { HttpClient } from '@angular/common/http';
-import { AuthService } from '../../services/auth.service';
 
 interface Course {
   id: string;
@@ -15,50 +15,58 @@ interface Course {
 
 @Component({
   selector: 'app-courses',
-  imports: [BackgroundItem, CommonModule],
+  standalone: true,
+  imports: [CommonModule, BackgroundItem, CoursesItem],
   templateUrl: './courses.html',
-  styleUrl: './courses.css'
+  styleUrl: './courses.css',
+  changeDetection: ChangeDetectionStrategy.Default,
 })
 export class Courses implements OnInit {
-  private http = inject(HttpClient);
-  readonly auth = inject(AuthService);
-
+  private readonly api = inject(Api);
+  private readonly transferState = inject(TransferState);
   courses: Course[] = [];
   enrolling = new Set<string>();
+  enrolled = new Set<string>();
+  http: any;
 
-  ngOnInit(): void {
-    this.loadCourses();
-  }
-
-  loadCourses() {
-    this.http.get<Course[]>('http://localhost:3000/courses').subscribe(list => this.courses = list);
-  }
-
-  isEnrolled(courseId: string) {
-    const user = this.auth.currentUser();
-    if (!user) return false;
-    // check enrollments endpoint
-    // synchronous check not possible here; UI will still allow enroll button to check on click
-    return false;
-  }
-
-  enroll(courseId: string) {
-    const user = this.auth.currentUser();
-    if (!user) {
-      alert('Lütfen önce giriş yapın');
-      return;
+  ngOnInit() {
+    const COURSES_KEY = makeStateKey<Course[]>('courses');
+    const cached = this.transferState.get(COURSES_KEY, null as any);
+    if (cached) {
+      this.courses = cached;
+      this.transferState.remove(COURSES_KEY);
+    } else {
+      this.api.list<Course>('courses').subscribe((list) => {
+        this.courses = [...list];
+        this.transferState.set(COURSES_KEY, [...list]);
+      });
     }
+    // Kullanıcının kayıt olduğu kursları yükle
+    const userRaw = typeof window !== 'undefined' ? localStorage.getItem('currentUser') : null;
+    const user = userRaw ? JSON.parse(userRaw) : null;
+    if (user) {
+      this.api.list<any>('enrollments?userId=' + user.id).subscribe((enrolls) => {
+        for (const e of enrolls) this.enrolled.add(e.courseId);
+      });
+    }
+  }
+
+  enroll = (courseId: string) => {
     this.enrolling.add(courseId);
+    const userRaw = typeof window !== 'undefined' ? localStorage.getItem('currentUser') : null;
+    const user = userRaw ? JSON.parse(userRaw) : null;
+    if (!user) return;
     const payload = { userId: user.id, courseId };
-    this.http.post('http://localhost:3000/enrollments', payload).subscribe({
+    this.api.post('enrollments', payload).subscribe({
       next: () => {
         this.enrolling.delete(courseId);
+        this.enrolled.add(courseId);
         alert('Kursa kayıt yapıldı');
       },
       error: () => {
         this.enrolling.delete(courseId);
         alert('Kayıt sırasında hata oluştu');
-      }
+      },
     });
-  }
+  };
 }

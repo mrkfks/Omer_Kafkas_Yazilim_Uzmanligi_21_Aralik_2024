@@ -14,6 +14,10 @@ interface Course {
   title: string;
   categoryId: string;
   instructorId: string;
+  image?: string;
+  instructorName?: string;
+  description?: string;
+  price?: number;
 }
 
 @Component({
@@ -35,6 +39,7 @@ export class Profile implements OnInit {
 
   ngOnInit(): void {
     this.user = this.auth.currentUser();
+    console.log('Aktif kullanıcı:', this.user);
     if (this.user) this.profilePhoto = this.user.profilePhoto || this.profilePhoto;
 
     // load categories and courses from json-server
@@ -47,16 +52,20 @@ export class Profile implements OnInit {
   private loadCourses() {
     this.http.get<Course[]>('http://localhost:3000/courses').subscribe(courses => {
       if (!this.user) return;
+      console.log('Tüm kurslar:', courses);
 
       if (this.user.role === 'instructor') {
         // group instructor's courses by category
         const my = courses.filter(c => c.instructorId === this.user!.id);
         this.groupedCourses = this.groupByCategory(my);
+        console.log('Eğitmenin kursları:', my);
       } else {
         // student: load enrollments then map to courses
         this.http.get<any[]>('http://localhost:3000/enrollments?userId=' + this.user.id).subscribe(enrolls => {
+          console.log('Kullanıcının enrollments:', enrolls);
           const enrolledCourseIds = new Set(enrolls.map(e => e.courseId));
           const my = courses.filter(c => enrolledCourseIds.has(c.id));
+          console.log('Kullanıcının aldığı kurslar:', my);
           this.groupedCourses = this.groupByCategory(my);
         });
       }
