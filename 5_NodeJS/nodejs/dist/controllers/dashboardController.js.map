@@ -1,1 +1,0 @@
-{"version":3,"file":"dashboardController.js","sourceRoot":"","sources":["../../src/controllers/dashboardController.ts"],"names":[],"mappings":";;;;;;AAAA,sDAA8B;AAEjB,QAAA,mBAAmB,GAAG,iBAAO,CAAC,MAAM,EAAE,CAAA;AAEnD,2BAAmB,CAAC,GAAG,CAAC,GAAG,EAAE,CAAC,GAAG,EAAE,GAAG,EAAE,EAAE;IACtC,GAAG,CAAC,MAAM,CAAC,WAAW,CAAC,CAAA;AAC3B,CAAC,CAAC,CAAA"}
