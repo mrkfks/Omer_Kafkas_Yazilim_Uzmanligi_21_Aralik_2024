@@ -1,10 +1,10 @@
 import express from "express";
 import mongoose from "mongoose";
-import { INote, noteShema } from "../models/noteModel";
+import { INote, noteSchema } from "../models/noteModel";
 
 
 
-const Note = mongoose.model<INote>("Note", noteShema);
+const Note = mongoose.model<INote>("Note", noteSchema);
 const router = express.Router();
 
 // Yeni not ekleme
