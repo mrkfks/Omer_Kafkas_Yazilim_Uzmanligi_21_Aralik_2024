@@ -47,6 +47,23 @@
       </div>
     </div>
 
+    <div class="field">
+      <label>Kullanıcı Rolü</label>
+      <div class="role-cards">
+        <label class="role-card" [class.active]="form.get('role')?.value==='student'">
+          <input type="radio" formControlName="role" value="student" />
+          <span class="role-title">Öğrenci</span>
+          <span class="role-desc">Kurs satın al ve öğrenmeye başla</span>
+        </label>
+        <label class="role-card" [class.active]="form.get('role')?.value==='instructor'">
+          <input type="radio" formControlName="role" value="instructor" />
+          <span class="role-title">Eğitici</span>
+          <span class="role-desc">Kendi kurslarını oluştur ve yönet</span>
+        </label>
+      </div>
+      <div class="text-danger small mt-1" *ngIf="form.get('role')?.invalid && form.get('role')?.touched">Rol seçimi zorunludur.</div>
+    </div>
+
     <button class="submit" type="submit" [disabled]="submitting || form.invalid">
         {{ submitting ? 'Kayıt Olunuyor...' : 'Kayıt Ol' }}
     </button>

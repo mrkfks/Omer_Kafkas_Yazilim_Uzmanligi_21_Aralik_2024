@@ -1,4 +1,5 @@
 import { Injectable, inject } from '@angular/core';
+import { environment } from '../environments/environment';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable, catchError, throwError } from 'rxjs';
 import { map } from 'rxjs/operators';
@@ -10,7 +11,7 @@ export class Api {
   private http = inject(HttpClient);
 
   // Merkezî base URL (gerekirse environment'a taşınabilir)
-  private readonly baseUrl = 'http://localhost:3000';
+  private readonly baseUrl = environment.apiBaseUrl;
 
   // Yardımcı: path'i tam URL'ye çevir
   private url(path: string) {

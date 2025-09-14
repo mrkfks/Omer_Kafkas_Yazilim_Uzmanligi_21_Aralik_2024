@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { BackgroundItem } from './background-item';
+import { globalTestConfig } from '../../../test-setup';
 
 describe('BackgroundItem', () => {
   let component: BackgroundItem;
@@ -8,7 +8,8 @@ describe('BackgroundItem', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BackgroundItem]
+      imports: [BackgroundItem],
+      providers: [...globalTestConfig.providers]
     })
     .compileComponents();
 

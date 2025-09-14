@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { EditCourses } from './edit-courses';
+import { globalTestConfig } from '../../../test-setup';
 
 describe('EditCourses', () => {
   let component: EditCourses;
@@ -8,7 +8,8 @@ describe('EditCourses', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [EditCourses]
+      imports: [EditCourses],
+      providers: [...globalTestConfig.providers]
     })
     .compileComponents();
 

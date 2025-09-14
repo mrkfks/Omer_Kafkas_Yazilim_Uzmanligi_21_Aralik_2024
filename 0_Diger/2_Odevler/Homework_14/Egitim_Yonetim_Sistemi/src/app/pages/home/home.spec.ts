@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { Home } from './home';
+import { globalTestConfig } from '../../../test-setup';
 
 describe('Home', () => {
   let component: Home;
@@ -8,7 +8,8 @@ describe('Home', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Home]
+      imports: [Home],
+      providers: [...globalTestConfig.providers]
     })
     .compileComponents();
 

@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
+import { Router } from '@angular/router';
 import { BackgroundItem } from "../../components/background-item/background-item";
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
@@ -12,12 +13,13 @@ import { AuthService } from '../../services/auth.service';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class Register {
-photo: any;
-navigateToLogin() {
-throw new Error('Method not implemented.');
-}
+  photo: any;
+  navigateToLogin() {
+    this.router.navigateByUrl('/login');
+  }
   submitting = false;
   private auth = inject(AuthService);
+  private router = inject(Router);
 
   onSubmit() {
     if (this.form.invalid) {
@@ -25,17 +27,19 @@ throw new Error('Method not implemented.');
       return;
     }
   this.submitting = true;
-    const { name, surname, email, password } = this.form.value;
+    const { name, surname, email, password, role } = this.form.value as any;
     const profilePhoto = this.selectedPhoto || this.photoList[0] || '';
-  this.auth.register({ name: name!, surname: surname!, email: email!, password: password!, profilePhoto })
+    this.auth.register({ name: name!, surname: surname!, email: email!, password: password!, profilePhoto, role: role! })
       .subscribe({
         next: user => {
           this.submitting = false;
-          console.log('Kayıt başarılı', user);
+          const { password: _pw, ...safe } = user as any;
+          localStorage.setItem('currentUser', JSON.stringify(safe));
+          this.auth.currentUser.set(safe);
+          this.router.navigateByUrl('/');
         },
-        error: err => {
+        error: () => {
           this.submitting = false;
-          console.error(err);
           alert('Kayıt başarısız');
         }
       });
@@ -48,7 +52,8 @@ throw new Error('Method not implemented.');
     surname: ['', Validators.required],
     email: ['', [Validators.required, Validators.email]],
     password: ['', Validators.required],
-    passwordAgain: ['', Validators.required]
+    passwordAgain: ['', Validators.required],
+    role: ['student', Validators.required]
   }, {
     validators: (group) => {
       const password = group.get('password')?.value;

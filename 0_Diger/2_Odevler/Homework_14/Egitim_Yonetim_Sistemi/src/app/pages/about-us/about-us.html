@@ -27,7 +27,24 @@
       </div>
       <div class="mt-4">
         <h3>Ekibimiz</h3>
-        
+        @if(loading()){ 
+          <div class="text-muted small">Eğitmenler yükleniyor...</div>
+        } @else if(!instructors().length) {
+          <div class="text-muted small">Henüz kayıtlı eğitmen yok.</div>
+        } @else {
+          <div class="row g-3 mt-2">
+            @for(ins of instructors(); track ins.id){
+              <div class="col-md-4">
+                <div class="card h-100 p-2 d-flex flex-column">
+                  <img [src]="ins.profilePhoto || 'assets/logo.png'" alt="{{ins.name}} {{ins.surname}}" class="rounded mb-2" style="width:100%;height:160px;object-fit:cover;" />
+                  <strong>{{ ins.name }} {{ ins.surname }}</strong>
+                  <span class="badge mt-1" [class.bg-warning]="true" [class.text-dark]="true">Eğitici</span>
+                  <p class="mt-2 mb-0 small text-muted" style="min-height:42px;">{{ ins.bio || 'Profil bilgisi yakında eklenecek.' }}</p>
+                </div>
+              </div>
+            }
+          </div>
+        }
       </div>
     </div>
   </div>

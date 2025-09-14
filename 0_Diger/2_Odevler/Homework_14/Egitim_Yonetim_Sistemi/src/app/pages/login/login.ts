@@ -41,7 +41,7 @@ export class Login {
         alert('Kullanıcı bulunamadı veya şifre hatalı');
         return;
       }
-      console.log('Giriş başarılı', user);
+  // login success
   // başarılıysa ana sayfaya yönlendir
   this.router.navigate(['/']);
     });

@@ -23,13 +23,16 @@
             <p class="card-text">{{ c.description }}</p>
             <div class="mt-auto d-flex justify-content-between align-items-center">
               <strong>{{ c.price | currency : 'TRY' }}</strong>
-              <button
-                class="btn btn-primary"
-                (click)="enroll(c.id)"
-                [disabled]="enrolling.has(c.id) || enrolled.has(c.id)"
-              >
-                {{ enrolled.has(c.id) ? 'Kayıt Olundu' : 'Kayıt Ol' }}
-              </button>
+              <div class="btn-group">
+                <button
+                  class="btn btn-primary btn-sm"
+                  (click)="enroll(c.id)"
+                  [disabled]="enrolling.has(c.id) || enrolled.has(c.id)"
+                >
+                  {{ enrolled.has(c.id) ? 'Kayıt Olundu' : 'Kayıt Ol' }}
+                </button>
+                <a class="btn btn-outline-secondary btn-sm" [routerLink]="['/courses', c.id]">Detay</a>
+              </div>
             </div>
           </div>
         </div>

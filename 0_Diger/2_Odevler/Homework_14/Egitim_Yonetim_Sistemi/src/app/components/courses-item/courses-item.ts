@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NgOptimizedImage } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 interface Course {
   id: string;
@@ -14,7 +15,7 @@ interface Course {
 @Component({
   selector: 'app-courses-item',
   standalone: true,
-  imports: [CommonModule, NgOptimizedImage],
+  imports: [CommonModule, NgOptimizedImage, RouterModule],
   templateUrl: './courses-item.html',
   styleUrls: ['./courses-item.css']
 })

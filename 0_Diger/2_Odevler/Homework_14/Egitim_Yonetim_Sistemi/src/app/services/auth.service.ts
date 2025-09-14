@@ -1,4 +1,5 @@
 import { inject, Injectable, signal } from '@angular/core';
+import { environment } from '../../environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { map, Observable } from 'rxjs';
 
@@ -10,13 +11,14 @@ export interface UserDto {
   password: string;
   profilePhoto?: string;
   role?: 'student' | 'instructor' | 'admin';
+  bio?: string;
 }
 
 @Injectable({ providedIn: 'root' })
 
 export class AuthService {
   private http = inject(HttpClient);
-  private readonly api = 'http://localhost:3000';
+  private readonly api = environment.apiBaseUrl;
 
   // localStorage destekli auth state
   readonly currentUser = signal<UserDto | null>(this.loadUserFromStorage());
@@ -44,10 +46,13 @@ export class AuthService {
       .pipe(
         map(list => {
           const found = list.find(u => u.password === password);
-          this.currentUser.set(found ?? null);
           if (found) {
-            localStorage.setItem('currentUser', JSON.stringify(found));
+            // Parolayı client storage'a koyma
+            const { password, ...safeUser } = found as any;
+            this.currentUser.set(safeUser);
+            localStorage.setItem('currentUser', JSON.stringify(safeUser));
           } else {
+            this.currentUser.set(null);
             localStorage.removeItem('currentUser');
           }
           return found ?? null;

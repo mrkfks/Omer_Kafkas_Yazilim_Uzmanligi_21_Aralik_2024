@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { Search } from './search';
+import { globalTestConfig } from '../../../test-setup';
 
 describe('Search', () => {
   let component: Search;
@@ -8,7 +8,8 @@ describe('Search', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Search]
+      imports: [Search],
+      providers: [...globalTestConfig.providers]
     })
     .compileComponents();
 
